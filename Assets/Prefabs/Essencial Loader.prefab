@@ -43,7 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12459129d9914290bb93735d65f991a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UIScreen: {fileID: 0}
+  UIScreen: {fileID: 4757913844571007515, guid: a998c502d1105498c8a734e3b0ba05c9,
+    type: 3}
   player: {fileID: 6131176795720162128, guid: bd1bb79be79d94c96bfbe94722e7b44b, type: 3}
   gameManager: {fileID: 3716048126304894940, guid: ea77441e6876747ccbe50857130533c0,
     type: 3}

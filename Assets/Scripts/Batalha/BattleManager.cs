@@ -1,15 +1,26 @@
-﻿using System;
+﻿//using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BattleManager : MonoBehaviour {
     [SerializeField] GameObject battleScene;
-    [SerializeField] GameObject targetsAttack;
+    [SerializeField] GameObject targetPanel;
+    [SerializeField] GameObject dicePanel;
+    [SerializeField] GameObject playDice;
+    [SerializeField] Text[] dices;
+    [SerializeField] float speedDice = 0.1f;
+
+    private int typeDice = 6;
+
+    public int TypeDice { get => typeDice; set => typeDice = value; }
 
     // Start is called before the first frame update
     void Start() {
-        targetsAttack.SetActive(false);
+        targetPanel.SetActive(false);
+        dicePanel.SetActive(false);
+        playDice.SetActive(false);
     }
 
     // Update is called once per frame
@@ -33,9 +44,48 @@ public class BattleManager : MonoBehaviour {
         Camera.main.orthographicSize = 12.0f;
         GameManager.Instance.BattleActive = false;
         battleScene.SetActive(false);
+        targetPanel.SetActive(false);
+        playDice.SetActive(false);
     }
 
     public void ActionAttack() {
-        targetsAttack.SetActive(true);
+        targetPanel.SetActive(true);
+    }
+
+    public void SelectTarget(int pos) {
+        dicePanel.SetActive(true);
+        playDice.SetActive(true);
+    }
+
+    public void PlayDice() {
+        //StartCoroutine(PlayDiceCorEachPerTime());
+        StartCoroutine(PlayDiceCorAll());
+    }
+
+    //Versão de cada dado de uma vez
+    IEnumerator PlayDiceCorEachPerTime() {
+        foreach (var item in dices) {
+
+            for (int i = 0; i < TypeDice; i++) {
+                item.text = Random.Range(1, TypeDice).ToString();
+                yield return new WaitForSeconds(speedDice);
+            }
+
+            //yield return new WaitForSeconds(1f);
+            item.text = Random.Range(1, TypeDice).ToString();
+        }
+    }
+
+    IEnumerator PlayDiceCorAll() {
+
+        dices[0].text = Random.Range(1, TypeDice).ToString();
+        dices[1].text = Random.Range(1, TypeDice).ToString();
+        dices[2].text = Random.Range(1, TypeDice).ToString();
+        yield return new WaitForSeconds(speedDice);
+
+        dices[0].text = Random.Range(1, TypeDice).ToString();
+        dices[1].text = Random.Range(1, TypeDice).ToString();
+        dices[2].text = Random.Range(1, TypeDice).ToString();
+
     }
 }

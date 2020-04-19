@@ -1,0 +1,5 @@
+﻿1;Ambidestria;5;0;O personagem é capaz de lutar e manusear igualmente bem com qual­ quer uma das mãos e nunca sofre a penalidade de -4 na DX por estar usan­ do a mão inábil.
+2;Aptidão Mágica;10;10;O personagem é um adepto da magia. Esta vantagem está dividida em níveis.
+3;Abafador de Mana;10;0;O personagem anula a energia má­gica (“mana”) que existe ao seu redor, dificultando ou impossibilitando que outros personagens façam mágicas.
+4;Sorte;10;0;O personagem nasceu com sorte! Facilita na obterção de itens e ganho de XP.
+5;Reflexos em Combate;15;0;O personagem tem reações fantást cas e raramente fica surpreso por mais do que alguns segundos. Ele recebe um bônus de +1 em todas as jogadas de de­ fesa ativa e ataque.

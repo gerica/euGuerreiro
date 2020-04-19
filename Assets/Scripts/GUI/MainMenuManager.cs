@@ -1,0 +1,218 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class MainMenuManager : MonoBehaviour {
+    [SerializeField] GameObject panelCreatePlayer;
+    [SerializeField] GameObject panelListAdvantage;
+    [SerializeField] GameObject listItemsAdvantage;
+    [SerializeField] GameObject listAdvantageSelected;
+    [SerializeField] Text[] textAttribute;
+    [SerializeField] int pointsToSpend = 100;
+    [SerializeField] Text pointsToSpendComp;
+    [SerializeField] Image typeSex;
+    [SerializeField] Button[] checkButtons;
+    [SerializeField] Sprite[] checkSpriteButtons;
+    [SerializeField] Sprite[] typesSpriteSex;
+    [SerializeField] ItemAdvantage itemPrefab;
+    [SerializeField] AdvSelected advSelectedPrefab;
+
+    private Player player;
+
+    public static MainMenuManager Instance { get; set; }
+
+    // Start is called before the first frame update
+    void Start() {
+        Instance = this;
+        var initPos = 0;
+        UpdatePointToSpendComp();
+        typeSex.sprite = typesSpriteSex[initPos];
+        checkButtons[initPos].image.sprite = checkSpriteButtons[1];
+        checkButtons[1].image.sprite = checkSpriteButtons[0];
+        ListAdvantage.CreateList();
+        // TODO retirar no futuro
+        player = new Player();
+    }
+
+    // Update is called once per frame
+    void Update() {
+
+    }
+
+    public void NewGame() {
+        player = new Player();
+        panelCreatePlayer.SetActive(true);
+    }
+
+    public void Cancel() {
+        panelCreatePlayer.SetActive(false);
+    }
+
+    public void QuitGame() {
+        Application.Quit();
+    }
+
+    public void UpdatePointToSpend(int value) {
+        pointsToSpend += value;
+        UpdatePointToSpendComp();
+    }
+
+    public void UpdatePointToSpendComp() {
+        pointsToSpendComp.text = pointsToSpend.ToString();
+    }
+
+    public void SelectTypeSex(int pos) {
+        typeSex.sprite = typesSpriteSex[pos];
+        if (pos == 0) {
+            checkButtons[0].image.sprite = checkSpriteButtons[1];
+            checkButtons[1].image.sprite = checkSpriteButtons[0];
+        } else {
+            Debug.Log("aqui " + pos);
+            checkButtons[0].image.sprite = checkSpriteButtons[0];
+            checkButtons[1].image.sprite = checkSpriteButtons[1];
+            Debug.Log(checkSpriteButtons[0]);
+            Debug.Log(checkSpriteButtons[1]);
+            Debug.Log(checkButtons[1].image.sprite);
+
+        }
+    }
+
+    public void PlusAttribute(int position) {
+        int val = Int32.Parse(textAttribute[position].text);
+        val++;
+        textAttribute[position].text = val.ToString();
+        switch (position) {
+            case 0:
+                UpdatePointToSpend(-10);
+                break;
+            case 1:
+                UpdatePointToSpend(-10);
+                break;
+            case 2:
+                UpdatePointToSpend(-20);
+                break;
+            case 3:
+                UpdatePointToSpend(-20);
+                break;
+            default:
+                break;
+        }
+    }
+
+    public void MinusAttribute(int position) {
+        int val = Int32.Parse(textAttribute[position].text);
+        val--;
+        textAttribute[position].text = val.ToString();
+        switch (position) {
+            case 0:
+                UpdatePointToSpend(10);
+                break;
+            case 1:
+                UpdatePointToSpend(10);
+                break;
+            case 2:
+                UpdatePointToSpend(15);
+                break;
+            case 3:
+                UpdatePointToSpend(15);
+                break;
+            default:
+                break;
+        }
+    }
+
+    public void OpenListAdvantage() {
+        panelListAdvantage.SetActive(true);
+
+        foreach (var item in ListAdvantage.list) {
+            bool flag = false;
+            foreach (var advPlay in player.Advantages) {
+                if (advPlay == item.Id) {
+                    flag = true;
+                    break;
+                }
+            }
+            if (flag) {
+                continue;
+            }
+
+            CreateItemAdvantage(item);
+        }
+
+    }
+
+
+    public void CloseListAdvantage() {
+        panelListAdvantage.SetActive(false);
+
+        ItemAdvantage[] itemAdvantage = listItemsAdvantage.transform.GetComponentsInChildren<ItemAdvantage>();
+        foreach (var item in itemAdvantage) {
+            Destroy(item.gameObject);
+        }
+        MountPanelAdvantage();
+
+    }
+
+    public void AddAdvantage(int id) {
+        player.AddAdvantage(id);
+        Advantage adv = FindById(id);
+        if (adv != null) {
+            UpdatePointToSpend(-adv.PointInit);
+        }
+        CloseListAdvantage();
+    }
+
+    public void RemoveAdvantage(int id) {
+        player.RemoveAdvantage(id);
+        Advantage adv = FindById(id);
+        if (adv != null) {
+            UpdatePointToSpend(adv.PointInit);
+        }
+        MountPanelAdvantage();
+    }
+
+    public void MountPanelAdvantage() {
+        AdvSelected[] advSelectedsLocal = listAdvantageSelected.transform.GetComponentsInChildren<AdvSelected>();
+
+        foreach (var item in advSelectedsLocal) {
+            Destroy(item.gameObject);
+        }
+
+        foreach (var idAdv in player.Advantages) {
+            foreach (var adv in ListAdvantage.list) {
+                if (idAdv == adv.Id) {
+                    CreateAdvSelected(adv);
+                }
+            }
+        }
+    }
+
+    private Advantage FindById(int idAdv) {
+        foreach (var adv in ListAdvantage.list) {
+            if (idAdv == adv.Id) {
+                return adv;
+            }
+        }
+        return null;
+    }
+
+    private void CreateItemAdvantage(Advantage item) {
+        ItemAdvantage itemList = Instantiate(itemPrefab);
+        itemList.Id = item.Id;
+        itemList.NameValue = item.Name;
+        itemList.PointValue = item.PointInit.ToString() + " pontos";
+        itemList.DescriptionValue = item.Description;
+        itemList.transform.parent = listItemsAdvantage.transform; // para adicionar no componente pai
+        itemList.transform.localScale = new Vector3(1, 1, 0);
+    }
+
+    private void CreateAdvSelected(Advantage item) {
+        AdvSelected itemList = Instantiate(advSelectedPrefab);
+        itemList.Id = item.Id;
+        itemList.NameValue = item.Name;
+        itemList.transform.parent = listAdvantageSelected.transform; // para adicionar no componente pai
+        itemList.transform.localScale = new Vector3(1, 1, 0);
+    }
+}
