@@ -1,0 +1,7052 @@
+fileFormatVersion: 2
+guid: d85a8d2f0f8a04522b9c40b3659211f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8580687197149800785
+    second: XP_tiles_PandaMaru_hafenpub_0
+  - first:
+      213: 6046979019983253719
+    second: XP_tiles_PandaMaru_hafenpub_1
+  - first:
+      213: -4521853910398085150
+    second: XP_tiles_PandaMaru_hafenpub_2
+  - first:
+      213: 7310031115454393547
+    second: XP_tiles_PandaMaru_hafenpub_3
+  - first:
+      213: 3460587724103651102
+    second: XP_tiles_PandaMaru_hafenpub_4
+  - first:
+      213: -134581078606217254
+    second: XP_tiles_PandaMaru_hafenpub_5
+  - first:
+      213: 1764076738815249150
+    second: XP_tiles_PandaMaru_hafenpub_6
+  - first:
+      213: -8702433461751164924
+    second: XP_tiles_PandaMaru_hafenpub_7
+  - first:
+      213: -6773845751415627711
+    second: XP_tiles_PandaMaru_hafenpub_8
+  - first:
+      213: -8722357279185123137
+    second: XP_tiles_PandaMaru_hafenpub_9
+  - first:
+      213: -3960420264019374542
+    second: XP_tiles_PandaMaru_hafenpub_10
+  - first:
+      213: -1842443920110053572
+    second: XP_tiles_PandaMaru_hafenpub_11
+  - first:
+      213: -488875957779618147
+    second: XP_tiles_PandaMaru_hafenpub_12
+  - first:
+      213: -455943645283033533
+    second: XP_tiles_PandaMaru_hafenpub_13
+  - first:
+      213: 4270878775406917288
+    second: XP_tiles_PandaMaru_hafenpub_14
+  - first:
+      213: 5529970664282521628
+    second: XP_tiles_PandaMaru_hafenpub_15
+  - first:
+      213: 9150469397748871744
+    second: XP_tiles_PandaMaru_hafenpub_16
+  - first:
+      213: 1224667490337672165
+    second: XP_tiles_PandaMaru_hafenpub_17
+  - first:
+      213: 1447853832721983424
+    second: XP_tiles_PandaMaru_hafenpub_18
+  - first:
+      213: 3281494260425193743
+    second: XP_tiles_PandaMaru_hafenpub_19
+  - first:
+      213: -7410698181337441437
+    second: XP_tiles_PandaMaru_hafenpub_20
+  - first:
+      213: -6310480585615856902
+    second: XP_tiles_PandaMaru_hafenpub_21
+  - first:
+      213: 3944227921747626328
+    second: XP_tiles_PandaMaru_hafenpub_22
+  - first:
+      213: -4891567718009433845
+    second: XP_tiles_PandaMaru_hafenpub_23
+  - first:
+      213: -3909835322780899360
+    second: XP_tiles_PandaMaru_hafenpub_24
+  - first:
+      213: -2952030903387006107
+    second: XP_tiles_PandaMaru_hafenpub_25
+  - first:
+      213: -7162564156369680239
+    second: XP_tiles_PandaMaru_hafenpub_26
+  - first:
+      213: 4791446136460108737
+    second: XP_tiles_PandaMaru_hafenpub_27
+  - first:
+      213: 4833200139091033932
+    second: XP_tiles_PandaMaru_hafenpub_28
+  - first:
+      213: -1900120818529172926
+    second: XP_tiles_PandaMaru_hafenpub_29
+  - first:
+      213: 3358065994123625405
+    second: XP_tiles_PandaMaru_hafenpub_30
+  - first:
+      213: 4248215261893201000
+    second: XP_tiles_PandaMaru_hafenpub_31
+  - first:
+      213: -4574678069843132406
+    second: XP_tiles_PandaMaru_hafenpub_32
+  - first:
+      213: 1182835356774815576
+    second: XP_tiles_PandaMaru_hafenpub_33
+  - first:
+      213: -3839318908724787738
+    second: XP_tiles_PandaMaru_hafenpub_34
+  - first:
+      213: 785964978616501385
+    second: XP_tiles_PandaMaru_hafenpub_35
+  - first:
+      213: 8067290163129748926
+    second: XP_tiles_PandaMaru_hafenpub_36
+  - first:
+      213: -3117728143059236954
+    second: XP_tiles_PandaMaru_hafenpub_37
+  - first:
+      213: -7557185195308237984
+    second: XP_tiles_PandaMaru_hafenpub_38
+  - first:
+      213: 7867236068020018160
+    second: XP_tiles_PandaMaru_hafenpub_39
+  - first:
+      213: -1942376347492977798
+    second: XP_tiles_PandaMaru_hafenpub_40
+  - first:
+      213: -1529435878456694860
+    second: XP_tiles_PandaMaru_hafenpub_41
+  - first:
+      213: -3091092904523157119
+    second: XP_tiles_PandaMaru_hafenpub_42
+  - first:
+      213: 2799441886214000346
+    second: XP_tiles_PandaMaru_hafenpub_43
+  - first:
+      213: 5692471854405087289
+    second: XP_tiles_PandaMaru_hafenpub_44
+  - first:
+      213: 3770465413266924398
+    second: XP_tiles_PandaMaru_hafenpub_45
+  - first:
+      213: -362625955205433107
+    second: XP_tiles_PandaMaru_hafenpub_46
+  - first:
+      213: 2501585381680855890
+    second: XP_tiles_PandaMaru_hafenpub_47
+  - first:
+      213: -2380063297477844355
+    second: XP_tiles_PandaMaru_hafenpub_48
+  - first:
+      213: 6987415696980860270
+    second: XP_tiles_PandaMaru_hafenpub_49
+  - first:
+      213: 7772147445474266357
+    second: XP_tiles_PandaMaru_hafenpub_50
+  - first:
+      213: -1525204499437430032
+    second: XP_tiles_PandaMaru_hafenpub_51
+  - first:
+      213: 6857106219868071027
+    second: XP_tiles_PandaMaru_hafenpub_52
+  - first:
+      213: -5661295249734033629
+    second: XP_tiles_PandaMaru_hafenpub_53
+  - first:
+      213: -872620740534926693
+    second: XP_tiles_PandaMaru_hafenpub_54
+  - first:
+      213: 8387315271780894910
+    second: XP_tiles_PandaMaru_hafenpub_55
+  - first:
+      213: -8336943602014302518
+    second: XP_tiles_PandaMaru_hafenpub_56
+  - first:
+      213: -3116072896780557730
+    second: XP_tiles_PandaMaru_hafenpub_57
+  - first:
+      213: 2991623928259294828
+    second: XP_tiles_PandaMaru_hafenpub_58
+  - first:
+      213: -1906879862686471770
+    second: XP_tiles_PandaMaru_hafenpub_59
+  - first:
+      213: 4604681483050579549
+    second: XP_tiles_PandaMaru_hafenpub_60
+  - first:
+      213: -3756529026774795811
+    second: XP_tiles_PandaMaru_hafenpub_61
+  - first:
+      213: 6115967336008849007
+    second: XP_tiles_PandaMaru_hafenpub_62
+  - first:
+      213: 7454074250929946860
+    second: XP_tiles_PandaMaru_hafenpub_63
+  - first:
+      213: 8908149171244780775
+    second: XP_tiles_PandaMaru_hafenpub_64
+  - first:
+      213: -498951623120239315
+    second: XP_tiles_PandaMaru_hafenpub_65
+  - first:
+      213: 382668460054273474
+    second: XP_tiles_PandaMaru_hafenpub_66
+  - first:
+      213: -4992174073759682984
+    second: XP_tiles_PandaMaru_hafenpub_67
+  - first:
+      213: -125809274693323149
+    second: XP_tiles_PandaMaru_hafenpub_68
+  - first:
+      213: -3081728483342211598
+    second: XP_tiles_PandaMaru_hafenpub_69
+  - first:
+      213: -1407377002153831555
+    second: XP_tiles_PandaMaru_hafenpub_70
+  - first:
+      213: -464299432931296977
+    second: XP_tiles_PandaMaru_hafenpub_71
+  - first:
+      213: 91153948959201258
+    second: XP_tiles_PandaMaru_hafenpub_72
+  - first:
+      213: -3521255227734605151
+    second: XP_tiles_PandaMaru_hafenpub_73
+  - first:
+      213: 578108291012015984
+    second: XP_tiles_PandaMaru_hafenpub_74
+  - first:
+      213: 548257296097462048
+    second: XP_tiles_PandaMaru_hafenpub_75
+  - first:
+      213: -6108567416964352516
+    second: XP_tiles_PandaMaru_hafenpub_76
+  - first:
+      213: -4022546792475679281
+    second: XP_tiles_PandaMaru_hafenpub_77
+  - first:
+      213: 8473213025472635512
+    second: XP_tiles_PandaMaru_hafenpub_78
+  - first:
+      213: -6014781754178430538
+    second: XP_tiles_PandaMaru_hafenpub_79
+  - first:
+      213: 9129570525452597842
+    second: XP_tiles_PandaMaru_hafenpub_80
+  - first:
+      213: 4056902389104781282
+    second: XP_tiles_PandaMaru_hafenpub_81
+  - first:
+      213: 7260967192268513742
+    second: XP_tiles_PandaMaru_hafenpub_82
+  - first:
+      213: 372779886017172442
+    second: XP_tiles_PandaMaru_hafenpub_83
+  - first:
+      213: -3243645755571371222
+    second: XP_tiles_PandaMaru_hafenpub_84
+  - first:
+      213: 3298562180466585890
+    second: XP_tiles_PandaMaru_hafenpub_85
+  - first:
+      213: -2730215708360896859
+    second: XP_tiles_PandaMaru_hafenpub_86
+  - first:
+      213: -3749329275022540982
+    second: XP_tiles_PandaMaru_hafenpub_87
+  - first:
+      213: -7169092849656010554
+    second: XP_tiles_PandaMaru_hafenpub_88
+  - first:
+      213: 819266890341372721
+    second: XP_tiles_PandaMaru_hafenpub_89
+  - first:
+      213: -5142370694536625150
+    second: XP_tiles_PandaMaru_hafenpub_90
+  - first:
+      213: 7482706936360224062
+    second: XP_tiles_PandaMaru_hafenpub_91
+  - first:
+      213: -4804945110462243617
+    second: XP_tiles_PandaMaru_hafenpub_92
+  - first:
+      213: -1136495324839003766
+    second: XP_tiles_PandaMaru_hafenpub_93
+  - first:
+      213: 6601087797867597178
+    second: XP_tiles_PandaMaru_hafenpub_94
+  - first:
+      213: -5699477100948139862
+    second: XP_tiles_PandaMaru_hafenpub_95
+  - first:
+      213: 7902220480092645211
+    second: XP_tiles_PandaMaru_hafenpub_96
+  - first:
+      213: -8651036619300550326
+    second: XP_tiles_PandaMaru_hafenpub_97
+  - first:
+      213: 1832033572490158580
+    second: XP_tiles_PandaMaru_hafenpub_98
+  - first:
+      213: -8926202738547215457
+    second: XP_tiles_PandaMaru_hafenpub_99
+  - first:
+      213: 4294559527643301960
+    second: XP_tiles_PandaMaru_hafenpub_100
+  - first:
+      213: -5236686618627794817
+    second: XP_tiles_PandaMaru_hafenpub_101
+  - first:
+      213: 6852457200371997487
+    second: XP_tiles_PandaMaru_hafenpub_102
+  - first:
+      213: -1784882070382229615
+    second: XP_tiles_PandaMaru_hafenpub_103
+  - first:
+      213: 7824145661824074157
+    second: XP_tiles_PandaMaru_hafenpub_104
+  - first:
+      213: 6831130499835534851
+    second: XP_tiles_PandaMaru_hafenpub_105
+  - first:
+      213: -7080522109079336710
+    second: XP_tiles_PandaMaru_hafenpub_106
+  - first:
+      213: 2750637255499936870
+    second: XP_tiles_PandaMaru_hafenpub_107
+  - first:
+      213: 3379459913955168457
+    second: XP_tiles_PandaMaru_hafenpub_108
+  - first:
+      213: 7883570022118588106
+    second: XP_tiles_PandaMaru_hafenpub_109
+  - first:
+      213: -6692227813005842451
+    second: XP_tiles_PandaMaru_hafenpub_110
+  - first:
+      213: -2322855967200496477
+    second: XP_tiles_PandaMaru_hafenpub_111
+  - first:
+      213: -5757621349902770845
+    second: XP_tiles_PandaMaru_hafenpub_112
+  - first:
+      213: 1710512388723403606
+    second: XP_tiles_PandaMaru_hafenpub_113
+  - first:
+      213: -3539313659598822125
+    second: XP_tiles_PandaMaru_hafenpub_114
+  - first:
+      213: 7142973783555572150
+    second: XP_tiles_PandaMaru_hafenpub_115
+  - first:
+      213: -2202395764305112961
+    second: XP_tiles_PandaMaru_hafenpub_116
+  - first:
+      213: 3809240364593652808
+    second: XP_tiles_PandaMaru_hafenpub_117
+  - first:
+      213: -8967622734197539917
+    second: XP_tiles_PandaMaru_hafenpub_118
+  - first:
+      213: 6860384970260562366
+    second: XP_tiles_PandaMaru_hafenpub_119
+  - first:
+      213: -5035164299811880345
+    second: XP_tiles_PandaMaru_hafenpub_120
+  - first:
+      213: 8164133843286760487
+    second: XP_tiles_PandaMaru_hafenpub_121
+  - first:
+      213: -4341576707183682955
+    second: XP_tiles_PandaMaru_hafenpub_122
+  - first:
+      213: 8772792076830547222
+    second: XP_tiles_PandaMaru_hafenpub_123
+  - first:
+      213: -2433715225203714833
+    second: XP_tiles_PandaMaru_hafenpub_124
+  - first:
+      213: 2154911514054509057
+    second: XP_tiles_PandaMaru_hafenpub_125
+  - first:
+      213: 1931358135344400527
+    second: XP_tiles_PandaMaru_hafenpub_126
+  - first:
+      213: 3559791413998261008
+    second: XP_tiles_PandaMaru_hafenpub_127
+  - first:
+      213: -8983357104644609469
+    second: XP_tiles_PandaMaru_hafenpub_128
+  - first:
+      213: -8685506422969793038
+    second: XP_tiles_PandaMaru_hafenpub_129
+  - first:
+      213: 3204300897071392282
+    second: XP_tiles_PandaMaru_hafenpub_130
+  - first:
+      213: 6713853920694168250
+    second: XP_tiles_PandaMaru_hafenpub_131
+  - first:
+      213: 1260714774042030544
+    second: XP_tiles_PandaMaru_hafenpub_132
+  - first:
+      213: 3811835466467493927
+    second: XP_tiles_PandaMaru_hafenpub_133
+  - first:
+      213: -3698554487439724036
+    second: XP_tiles_PandaMaru_hafenpub_134
+  - first:
+      213: 7614859478258835315
+    second: XP_tiles_PandaMaru_hafenpub_135
+  - first:
+      213: 3321873340053446269
+    second: XP_tiles_PandaMaru_hafenpub_136
+  - first:
+      213: 2751518169288282630
+    second: XP_tiles_PandaMaru_hafenpub_137
+  - first:
+      213: 5925755556473572147
+    second: XP_tiles_PandaMaru_hafenpub_138
+  - first:
+      213: -3779776681465190096
+    second: XP_tiles_PandaMaru_hafenpub_139
+  - first:
+      213: -6264027833974797343
+    second: XP_tiles_PandaMaru_hafenpub_140
+  - first:
+      213: -7662185004833030175
+    second: XP_tiles_PandaMaru_hafenpub_141
+  - first:
+      213: 6428603137822487572
+    second: XP_tiles_PandaMaru_hafenpub_142
+  - first:
+      213: 3836017800895743011
+    second: XP_tiles_PandaMaru_hafenpub_143
+  - first:
+      213: 6095495896204415113
+    second: XP_tiles_PandaMaru_hafenpub_144
+  - first:
+      213: -141431361437332563
+    second: XP_tiles_PandaMaru_hafenpub_145
+  - first:
+      213: -2673404818174238906
+    second: XP_tiles_PandaMaru_hafenpub_146
+  - first:
+      213: -1336658757042229893
+    second: XP_tiles_PandaMaru_hafenpub_147
+  - first:
+      213: 1844878950291348620
+    second: XP_tiles_PandaMaru_hafenpub_148
+  - first:
+      213: -4729153636919645078
+    second: XP_tiles_PandaMaru_hafenpub_149
+  - first:
+      213: -3213326084183593033
+    second: XP_tiles_PandaMaru_hafenpub_150
+  - first:
+      213: -4791576085572430616
+    second: XP_tiles_PandaMaru_hafenpub_151
+  - first:
+      213: -5180701752804388839
+    second: XP_tiles_PandaMaru_hafenpub_152
+  - first:
+      213: 7482214871435911939
+    second: XP_tiles_PandaMaru_hafenpub_153
+  - first:
+      213: 2304495590180060886
+    second: XP_tiles_PandaMaru_hafenpub_154
+  - first:
+      213: -1222561951834061831
+    second: XP_tiles_PandaMaru_hafenpub_155
+  - first:
+      213: 2434955972549571029
+    second: XP_tiles_PandaMaru_hafenpub_156
+  - first:
+      213: 1673947107502863220
+    second: XP_tiles_PandaMaru_hafenpub_157
+  - first:
+      213: 3600061306950537308
+    second: XP_tiles_PandaMaru_hafenpub_158
+  - first:
+      213: -6230067356066930990
+    second: XP_tiles_PandaMaru_hafenpub_159
+  - first:
+      213: -4654918111966954921
+    second: XP_tiles_PandaMaru_hafenpub_160
+  - first:
+      213: -4614197081996699304
+    second: XP_tiles_PandaMaru_hafenpub_161
+  - first:
+      213: -939017365708742475
+    second: XP_tiles_PandaMaru_hafenpub_162
+  - first:
+      213: -2191005033991211268
+    second: XP_tiles_PandaMaru_hafenpub_163
+  - first:
+      213: 3689631981313002166
+    second: XP_tiles_PandaMaru_hafenpub_164
+  - first:
+      213: 5748824291484778627
+    second: XP_tiles_PandaMaru_hafenpub_165
+  - first:
+      213: -412294293629075658
+    second: XP_tiles_PandaMaru_hafenpub_166
+  - first:
+      213: -5408469447172293782
+    second: XP_tiles_PandaMaru_hafenpub_167
+  - first:
+      213: 8815866507484136399
+    second: XP_tiles_PandaMaru_hafenpub_168
+  - first:
+      213: 5162229946849562909
+    second: XP_tiles_PandaMaru_hafenpub_169
+  - first:
+      213: 3949734964096145442
+    second: XP_tiles_PandaMaru_hafenpub_170
+  - first:
+      213: -4620911962024108013
+    second: XP_tiles_PandaMaru_hafenpub_171
+  - first:
+      213: -321156153830619845
+    second: XP_tiles_PandaMaru_hafenpub_172
+  - first:
+      213: 35411291318653775
+    second: XP_tiles_PandaMaru_hafenpub_173
+  - first:
+      213: 3944545880696582183
+    second: XP_tiles_PandaMaru_hafenpub_174
+  - first:
+      213: 8810769545246216820
+    second: XP_tiles_PandaMaru_hafenpub_175
+  - first:
+      213: 6621909307811471975
+    second: XP_tiles_PandaMaru_hafenpub_176
+  - first:
+      213: 8557969029517380843
+    second: XP_tiles_PandaMaru_hafenpub_177
+  - first:
+      213: -590002103890600595
+    second: XP_tiles_PandaMaru_hafenpub_178
+  - first:
+      213: 6226434023228645578
+    second: XP_tiles_PandaMaru_hafenpub_179
+  - first:
+      213: -1091066138710230357
+    second: XP_tiles_PandaMaru_hafenpub_180
+  - first:
+      213: 5332424004990928353
+    second: XP_tiles_PandaMaru_hafenpub_181
+  - first:
+      213: -4446337488662858887
+    second: XP_tiles_PandaMaru_hafenpub_182
+  - first:
+      213: -2545620945725282842
+    second: XP_tiles_PandaMaru_hafenpub_183
+  - first:
+      213: 8663802051676754822
+    second: XP_tiles_PandaMaru_hafenpub_184
+  - first:
+      213: -1787111102588452894
+    second: XP_tiles_PandaMaru_hafenpub_185
+  - first:
+      213: -649986217648526883
+    second: XP_tiles_PandaMaru_hafenpub_186
+  - first:
+      213: 8801889957566423060
+    second: XP_tiles_PandaMaru_hafenpub_187
+  - first:
+      213: 5234616738082618958
+    second: XP_tiles_PandaMaru_hafenpub_188
+  - first:
+      213: 1444474465903431290
+    second: XP_tiles_PandaMaru_hafenpub_189
+  - first:
+      213: -3977077551952522989
+    second: XP_tiles_PandaMaru_hafenpub_190
+  - first:
+      213: -443960575428673612
+    second: XP_tiles_PandaMaru_hafenpub_191
+  - first:
+      213: -2562999762735843347
+    second: XP_tiles_PandaMaru_hafenpub_192
+  - first:
+      213: -6706430005474319189
+    second: XP_tiles_PandaMaru_hafenpub_193
+  - first:
+      213: 6122735365076435832
+    second: XP_tiles_PandaMaru_hafenpub_194
+  - first:
+      213: -5382830663812532337
+    second: XP_tiles_PandaMaru_hafenpub_195
+  - first:
+      213: 333372690638960685
+    second: XP_tiles_PandaMaru_hafenpub_196
+  - first:
+      213: 3597482091954479889
+    second: XP_tiles_PandaMaru_hafenpub_197
+  - first:
+      213: -9217727328630850339
+    second: XP_tiles_PandaMaru_hafenpub_198
+  - first:
+      213: 3608496314136173701
+    second: XP_tiles_PandaMaru_hafenpub_199
+  - first:
+      213: 7166433573471700204
+    second: XP_tiles_PandaMaru_hafenpub_200
+  - first:
+      213: 2762153046754310247
+    second: XP_tiles_PandaMaru_hafenpub_201
+  - first:
+      213: 7005076632182063462
+    second: XP_tiles_PandaMaru_hafenpub_202
+  - first:
+      213: -5391168738239410763
+    second: XP_tiles_PandaMaru_hafenpub_203
+  - first:
+      213: -228688098663231454
+    second: XP_tiles_PandaMaru_hafenpub_204
+  - first:
+      213: -1502019086618346102
+    second: XP_tiles_PandaMaru_hafenpub_205
+  - first:
+      213: 3895408649331414210
+    second: XP_tiles_PandaMaru_hafenpub_206
+  - first:
+      213: -5802757961324947328
+    second: XP_tiles_PandaMaru_hafenpub_207
+  - first:
+      213: -7902872669248172716
+    second: XP_tiles_PandaMaru_hafenpub_208
+  - first:
+      213: 138522249898819079
+    second: XP_tiles_PandaMaru_hafenpub_209
+  - first:
+      213: -1591377150572024026
+    second: XP_tiles_PandaMaru_hafenpub_210
+  - first:
+      213: 8185258953692327948
+    second: XP_tiles_PandaMaru_hafenpub_211
+  - first:
+      213: 712467718658953768
+    second: XP_tiles_PandaMaru_hafenpub_212
+  - first:
+      213: 5259321626504992247
+    second: XP_tiles_PandaMaru_hafenpub_213
+  - first:
+      213: 4558925052379726850
+    second: XP_tiles_PandaMaru_hafenpub_214
+  - first:
+      213: 8785404150792388054
+    second: XP_tiles_PandaMaru_hafenpub_215
+  - first:
+      213: -1441137180365552931
+    second: XP_tiles_PandaMaru_hafenpub_216
+  - first:
+      213: -6066463948090961044
+    second: XP_tiles_PandaMaru_hafenpub_217
+  - first:
+      213: 1300637648866303627
+    second: XP_tiles_PandaMaru_hafenpub_218
+  - first:
+      213: 7077609897936668645
+    second: XP_tiles_PandaMaru_hafenpub_219
+  - first:
+      213: 3326782929106102123
+    second: XP_tiles_PandaMaru_hafenpub_220
+  - first:
+      213: 8618193428575212001
+    second: XP_tiles_PandaMaru_hafenpub_221
+  - first:
+      213: -3536211338478865923
+    second: XP_tiles_PandaMaru_hafenpub_222
+  - first:
+      213: 6795199178317795601
+    second: XP_tiles_PandaMaru_hafenpub_223
+  - first:
+      213: -1504997444204331852
+    second: XP_tiles_PandaMaru_hafenpub_224
+  - first:
+      213: 4979382882169630472
+    second: XP_tiles_PandaMaru_hafenpub_225
+  - first:
+      213: 5527099819900373519
+    second: XP_tiles_PandaMaru_hafenpub_226
+  - first:
+      213: 3169165112761281174
+    second: XP_tiles_PandaMaru_hafenpub_227
+  - first:
+      213: -3756006229859963133
+    second: XP_tiles_PandaMaru_hafenpub_228
+  - first:
+      213: -3391429249272007114
+    second: XP_tiles_PandaMaru_hafenpub_229
+  - first:
+      213: -7601417332926866890
+    second: XP_tiles_PandaMaru_hafenpub_230
+  - first:
+      213: -7656194204683823778
+    second: XP_tiles_PandaMaru_hafenpub_231
+  - first:
+      213: 5451968252904862183
+    second: XP_tiles_PandaMaru_hafenpub_232
+  - first:
+      213: -675206041523115225
+    second: XP_tiles_PandaMaru_hafenpub_233
+  - first:
+      213: -4367367471290091669
+    second: XP_tiles_PandaMaru_hafenpub_234
+  - first:
+      213: 3680744204160107515
+    second: XP_tiles_PandaMaru_hafenpub_235
+  - first:
+      213: -960172905249852678
+    second: XP_tiles_PandaMaru_hafenpub_236
+  - first:
+      213: -2043578960756330681
+    second: XP_tiles_PandaMaru_hafenpub_237
+  - first:
+      213: -8214194600339251507
+    second: XP_tiles_PandaMaru_hafenpub_238
+  - first:
+      213: -8887766088666372342
+    second: XP_tiles_PandaMaru_hafenpub_239
+  - first:
+      213: -2355370871079424359
+    second: XP_tiles_PandaMaru_hafenpub_240
+  - first:
+      213: 1943213440716318834
+    second: XP_tiles_PandaMaru_hafenpub_241
+  - first:
+      213: 1956242521311578512
+    second: XP_tiles_PandaMaru_hafenpub_242
+  - first:
+      213: -3515204360399206168
+    second: XP_tiles_PandaMaru_hafenpub_243
+  - first:
+      213: -4210573098572790504
+    second: XP_tiles_PandaMaru_hafenpub_244
+  - first:
+      213: 3372167783092454932
+    second: XP_tiles_PandaMaru_hafenpub_245
+  - first:
+      213: -9012137505797605333
+    second: XP_tiles_PandaMaru_hafenpub_246
+  - first:
+      213: -36092097040466154
+    second: XP_tiles_PandaMaru_hafenpub_247
+  - first:
+      213: 4677814252963557221
+    second: XP_tiles_PandaMaru_hafenpub_248
+  - first:
+      213: 2418850373437498836
+    second: XP_tiles_PandaMaru_hafenpub_249
+  - first:
+      213: -3252037607625436339
+    second: XP_tiles_PandaMaru_hafenpub_250
+  - first:
+      213: 5801784376430659670
+    second: XP_tiles_PandaMaru_hafenpub_251
+  - first:
+      213: 6152718423476629249
+    second: XP_tiles_PandaMaru_hafenpub_252
+  - first:
+      213: -6014719127797089848
+    second: XP_tiles_PandaMaru_hafenpub_253
+  - first:
+      213: 3235371034071417605
+    second: XP_tiles_PandaMaru_hafenpub_254
+  - first:
+      213: 6273688958215590414
+    second: XP_tiles_PandaMaru_hafenpub_255
+  - first:
+      213: 8668062890576315526
+    second: XP_tiles_PandaMaru_hafenpub_256
+  - first:
+      213: -4366576473057484693
+    second: XP_tiles_PandaMaru_hafenpub_257
+  - first:
+      213: 7162935259176686356
+    second: XP_tiles_PandaMaru_hafenpub_258
+  - first:
+      213: -682826347304492291
+    second: XP_tiles_PandaMaru_hafenpub_259
+  - first:
+      213: -1580289329083523922
+    second: XP_tiles_PandaMaru_hafenpub_260
+  - first:
+      213: -212006868808444001
+    second: XP_tiles_PandaMaru_hafenpub_261
+  - first:
+      213: -6509419256252672155
+    second: XP_tiles_PandaMaru_hafenpub_262
+  - first:
+      213: 1617063669932954459
+    second: XP_tiles_PandaMaru_hafenpub_263
+  - first:
+      213: -1981447491041885015
+    second: XP_tiles_PandaMaru_hafenpub_264
+  - first:
+      213: -7671765875200154571
+    second: XP_tiles_PandaMaru_hafenpub_265
+  - first:
+      213: -8845757631600728479
+    second: XP_tiles_PandaMaru_hafenpub_266
+  - first:
+      213: -6389578007699038642
+    second: XP_tiles_PandaMaru_hafenpub_267
+  - first:
+      213: -2450798338492325881
+    second: XP_tiles_PandaMaru_hafenpub_268
+  - first:
+      213: -4476118660211456974
+    second: XP_tiles_PandaMaru_hafenpub_269
+  - first:
+      213: 3991890325098558096
+    second: XP_tiles_PandaMaru_hafenpub_270
+  - first:
+      213: 389114294932948437
+    second: XP_tiles_PandaMaru_hafenpub_271
+  - first:
+      213: -6429150688522976637
+    second: XP_tiles_PandaMaru_hafenpub_272
+  - first:
+      213: 7937225172271953921
+    second: XP_tiles_PandaMaru_hafenpub_273
+  - first:
+      213: -8185438986939229979
+    second: XP_tiles_PandaMaru_hafenpub_274
+  - first:
+      213: -8998510796520095924
+    second: XP_tiles_PandaMaru_hafenpub_275
+  - first:
+      213: -3397028962978448248
+    second: XP_tiles_PandaMaru_hafenpub_276
+  - first:
+      213: -6392063355965460604
+    second: XP_tiles_PandaMaru_hafenpub_277
+  - first:
+      213: 2434218190569136352
+    second: XP_tiles_PandaMaru_hafenpub_278
+  - first:
+      213: -354983824100027280
+    second: XP_tiles_PandaMaru_hafenpub_279
+  - first:
+      213: -7520452628444350383
+    second: XP_tiles_PandaMaru_hafenpub_280
+  - first:
+      213: -2933783995521802009
+    second: XP_tiles_PandaMaru_hafenpub_281
+  - first:
+      213: 2071816370774110235
+    second: XP_tiles_PandaMaru_hafenpub_282
+  - first:
+      213: 3228707175568257957
+    second: XP_tiles_PandaMaru_hafenpub_283
+  - first:
+      213: -4944866632683902082
+    second: XP_tiles_PandaMaru_hafenpub_284
+  - first:
+      213: 3698122603699350366
+    second: XP_tiles_PandaMaru_hafenpub_285
+  - first:
+      213: -9005516854228926450
+    second: XP_tiles_PandaMaru_hafenpub_286
+  - first:
+      213: -6391113202641373637
+    second: XP_tiles_PandaMaru_hafenpub_287
+  - first:
+      213: -8016167687749892154
+    second: XP_tiles_PandaMaru_hafenpub_288
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1592bda1b89b41770800000000000000
+      internalID: 8580687197149800785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d07752616f2be350800000000000000
+      internalID: 6046979019983253719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7d28883d52f31c0800000000000000
+      internalID: -4521853910398085150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc26bdb192727560800000000000000
+      internalID: 7310031115454393547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f8649333a760030800000000000000
+      internalID: 3460587724103651102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfff28d83fd12ef0800000000000000
+      internalID: -134581078606217254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efacc9d82724b7810800000000000000
+      internalID: 1764076738815249150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40059debfdeba3780800000000000000
+      internalID: -8702433461751164924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140259fad277ef1a0800000000000000
+      internalID: -6773845751415627711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8c0228446f3f680800000000000000
+      internalID: -8722357279185123137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ecdd9c0c2c909c0800000000000000
+      internalID: -3960420264019374542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37134f24035e66e0800000000000000
+      internalID: -1842443920110053572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96215518e92739f0800000000000000
+      internalID: -488875957779618147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ede499ba92ca9f0800000000000000
+      internalID: -455943645283033533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a672ee3e95354b30800000000000000
+      internalID: 4270878775406917288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1004e625076ebc40800000000000000
+      internalID: 5529970664282521628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04277ec9f6ffcfe70800000000000000
+      internalID: 9150469397748871744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebcb890894eef010800000000000000
+      internalID: 1224667490337672165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7e41ac36fc71410800000000000000
+      internalID: 1447853832721983424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09702dc4a53a8d20800000000000000
+      internalID: 3281494260425193743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b9fb38449e72990800000000000000
+      internalID: -7410698181337441437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1217
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa2e5c775bac68a0800000000000000
+      internalID: -6310480585615856902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859c1fcb566bcb630800000000000000
+      internalID: 3944227921747626328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01974db319ad1cb0800000000000000
+      internalID: -4891567718009433845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7ae573d797db9c0800000000000000
+      internalID: -3909835322780899360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b54ada8874807d0800000000000000
+      internalID: -2952030903387006107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198c3a249d5799c90800000000000000
+      internalID: -7162564156369680239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c36f1cffd2ae7240800000000000000
+      internalID: 4791446136460108737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fb3ea4be9f21340800000000000000
+      internalID: 4833200139091033932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1185
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2428e3dce2a61a5e0800000000000000
+      internalID: -1900120818529172926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3ce08da3f3a9e20800000000000000
+      internalID: 3358065994123625405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c898ec541b4fa30800000000000000
+      internalID: 4248215261893201000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a000b3d788a7380c0800000000000000
+      internalID: -4574678069843132406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857d5547d764a6010800000000000000
+      internalID: 1182835356774815576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5c40a4bcff7bac0800000000000000
+      internalID: -3839318908724787738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984855cdbfe48ea00800000000000000
+      internalID: 785964978616501385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd0a5939a5c4ff60800000000000000
+      internalID: 8067290163129748926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a747b6b5ca9bb4d0800000000000000
+      internalID: -3117728143059236954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bbfc3ca1c7f1790800000000000000
+      internalID: -7557185195308237984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb597e75890e2d60800000000000000
+      internalID: 7867236068020018160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a737f8bc00b4b05e0800000000000000
+      internalID: -1942376347492977798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7e9ddfb2a56cae0800000000000000
+      internalID: -1529435878456694860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181ba22716b3a15d0800000000000000
+      internalID: -3091092904523157119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade822d309d99d620800000000000000
+      internalID: 2799441886214000346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93079b7ddf8bffe40800000000000000
+      internalID: 5692471854405087289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_45
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63ebab0152635430800000000000000
+      internalID: 3770465413266924398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1089
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8b4a17d91b7faf0800000000000000
+      internalID: -362625955205433107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_47
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1089
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bb56296aa67b220800000000000000
+      internalID: 2501585381680855890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1089
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7263e28a0158fed0800000000000000
+      internalID: -2380063297477844355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1089
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d58843e8948f060800000000000000
+      internalID: 6987415696980860270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1089
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc047d4ce63cdb60800000000000000
+      internalID: 7772147445474266357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_51
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1089
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa5431b69265dae0800000000000000
+      internalID: -1525204499437430032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1089
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374ab56c6c5592f50800000000000000
+      internalID: 6857106219868071027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_53
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1089
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f1ff617f90f61b0800000000000000
+      internalID: -5661295249734033629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1057
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9207c05f04d3e3f0800000000000000
+      internalID: -872620740534926693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1057
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb885b14dcab56470800000000000000
+      internalID: 8387315271780894910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_56
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1057
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acec87907f93d4c80800000000000000
+      internalID: -8336943602014302518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1057
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e522c25c53c71c4d0800000000000000
+      internalID: -3116072896780557730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1057
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c663479cc12648920800000000000000
+      internalID: 2991623928259294828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_59
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1057
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a92a333ed66985e0800000000000000
+      internalID: -1906879862686471770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1057
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d567c05896d17ef30800000000000000
+      internalID: 4604681483050579549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1057
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9f4aac0c02edbc0800000000000000
+      internalID: -3756529026774795811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1025
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6613b863e740e450800000000000000
+      internalID: 6115967336008849007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_63
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1025
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0c010b901327760800000000000000
+      internalID: 7454074250929946860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1025
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec4c3e497a10ab70800000000000000
+      internalID: 8908149171244780775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1025
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2540df642e5319f0800000000000000
+      internalID: -498951623120239315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1025
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdd74cdfe28f4500800000000000000
+      internalID: 382668460054273474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1025
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ea3ac212c38bab0800000000000000
+      internalID: -4992174073759682984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1025
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37674789129014ef0800000000000000
+      internalID: -125809274693323149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_69
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1025
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f52f28a5408b35d0800000000000000
+      internalID: -3081728483342211598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 993
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d731199b21ef77ce0800000000000000
+      internalID: -1407377002153831555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 993
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29f6be202a7e89f0800000000000000
+      internalID: -464299432931296977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 993
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7569b9808d34100800000000000000
+      internalID: 91153948959201258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_73
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 993
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2446bd60df12fc0800000000000000
+      internalID: -3521255227734605151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 993
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077ba7f7d6ad50800800000000000000
+      internalID: 578108291012015984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_75
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 993
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027c7632b1dcb9700800000000000000
+      internalID: 548257296097462048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 993
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf570518c420a3ba0800000000000000
+      internalID: -6108567416964352516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_77
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 993
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5a91e210b0d28c0800000000000000
+      internalID: -4022546792475679281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 961
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87262898a56e69570800000000000000
+      internalID: 8473213025472635512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_79
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 961
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b991bcbcd3378ca0800000000000000
+      internalID: -6014781754178430538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_80
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 961
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a7a79b500c2be70800000000000000
+      internalID: 9129570525452597842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_81
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 961
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7260f7a330d4830800000000000000
+      internalID: 4056902389104781282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 961
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec12eece03324c460800000000000000
+      internalID: 7260967192268513742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_83
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 961
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3d67dc4516c2500800000000000000
+      internalID: 372779886017172442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_84
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 961
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2307f1fe514cf2d0800000000000000
+      internalID: -3243645755571371222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_85
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 961
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221bf3c93d8d6cd20800000000000000
+      internalID: 3298562180466585890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 929
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae05fe47435c1ad0800000000000000
+      internalID: -2730215708360896859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_87
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 929
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ffe40a3e4b7fbc0800000000000000
+      internalID: -3749329275022540982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 929
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8e5766904428c90800000000000000
+      internalID: -7169092849656010554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 929
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133590765ee9e5b00800000000000000
+      internalID: 819266890341372721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 929
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20404c84911a2a8b0800000000000000
+      internalID: -5142370694536625150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_91
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 929
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e354a14405ae7d760800000000000000
+      internalID: 7482706936360224062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 929
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcd5a531e7615db0800000000000000
+      internalID: -4804945110462243617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_93
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 929
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a893412068b5a30f0800000000000000
+      internalID: -1136495324839003766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_94
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 897
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d401bc066cb9b50800000000000000
+      internalID: 6601087797867597178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_95
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 897
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0538816c367e0b0800000000000000
+      internalID: -5699477100948139862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_96
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 897
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b572dbca8a35aad60800000000000000
+      internalID: 7902220480092645211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 865
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49c1b7a70851f780800000000000000
+      internalID: -8651036619300550326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_98
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 865
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1add0e3d0bc6910800000000000000
+      internalID: 1832033572490158580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_99
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 865
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9336cff6e1cf1480800000000000000
+      internalID: -8926202738547215457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_100
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 865
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848c2f70327599b30800000000000000
+      internalID: 4294559527643301960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_101
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 865
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7816a8f34d8357b0800000000000000
+      internalID: -5236686618627794817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_102
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 865
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b9db29481d81f50800000000000000
+      internalID: 6852457200371997487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_103
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 865
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19747e4b633da37e0800000000000000
+      internalID: -1784882070382229615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_104
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 865
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da100fb7603f49c60800000000000000
+      internalID: 7824145661824074157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 833
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e98092ffc0dce50800000000000000
+      internalID: 6831130499835534851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_106
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 833
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8c600f7aeecbd90800000000000000
+      internalID: -7080522109079336710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_107
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 833
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6647708a20a3c2620800000000000000
+      internalID: 2750637255499936870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_108
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 833
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c058f7f2e046ee20800000000000000
+      internalID: 3379459913955168457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_109
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 833
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acefb4a8a21186d60800000000000000
+      internalID: 7883570022118588106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_110
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 833
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de72cc1d24e6023a0800000000000000
+      internalID: -6692227813005842451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 833
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a43e9a0ece83cfd0800000000000000
+      internalID: -2322855967200496477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_112
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 833
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d17df23e1d810b0800000000000000
+      internalID: -5757621349902770845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_113
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 801
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b63c174f5fcb710800000000000000
+      internalID: 1710512388723403606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_114
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 801
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315acea8af4d1eec0800000000000000
+      internalID: -3539313659598822125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 801
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b102c0afc0f02360800000000000000
+      internalID: 7142973783555572150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_116
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 801
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70d4cd98b48f61e0800000000000000
+      internalID: -2202395764305112961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_117
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 801
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8442fabede32dd430800000000000000
+      internalID: 3809240364593652808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_118
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 801
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb3070c2aa9c8380800000000000000
+      internalID: -8967622734197539917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_119
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 801
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb14fc658cbf43f50800000000000000
+      internalID: 6860384970260562366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_120
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 801
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7620cfb2fb08f1ab0800000000000000
+      internalID: -5035164299811880345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 769
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c1adb9974dc4170800000000000000
+      internalID: 8164133843286760487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_122
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 769
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ad43bccfe9fb3c0800000000000000
+      internalID: -4341576707183682955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_123
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 769
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d98d3e9e73fb970800000000000000
+      internalID: 8772792076830547222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_124
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 769
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4d545a5e4b93ed0800000000000000
+      internalID: -2433715225203714833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_125
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 769
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1024e95da98c7ed10800000000000000
+      internalID: 2154911514054509057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_126
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 769
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f888347cdff8dca10800000000000000
+      internalID: 1931358135344400527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_127
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 769
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0131ad13e6be66130800000000000000
+      internalID: 3559791413998261008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_128
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 769
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a2d272f44b45380800000000000000
+      internalID: -8983357104644609469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_129
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 737
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f503841de1e67780800000000000000
+      internalID: -8685506422969793038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_130
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 737
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16e76350b6f77c20800000000000000
+      internalID: 3204300897071392282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_131
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 737
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abae6d0c1966c2d50800000000000000
+      internalID: 6713853920694168250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_132
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 737
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1bcdd4865fe7110800000000000000
+      internalID: 1260714774042030544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_133
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 737
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728c709292c56e430800000000000000
+      internalID: 3811835466467493927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 737
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf17ab91a481cacc0800000000000000
+      internalID: -3698554487439724036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_135
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 737
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f5228a95a6da960800000000000000
+      internalID: 7614859478258835315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 705
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ed9b6e33aa91e20800000000000000
+      internalID: 3321873340053446269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_137
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 705
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6021671623b5f2620800000000000000
+      internalID: 2751518169288282630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_138
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 705
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b876958438c3250800000000000000
+      internalID: 5925755556473572147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_139
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 705
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03966f262298b8bc0800000000000000
+      internalID: -3779776681465190096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_140
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 705
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebc5cc8fd3b119a0800000000000000
+      internalID: -6264027833974797343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_141
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 705
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef3a9785537aa590800000000000000
+      internalID: -7662185004833030175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_142
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 705
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414fedf5e7cf63950800000000000000
+      internalID: 6428603137822487572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_143
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 705
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3244776add54c3530800000000000000
+      internalID: 3836017800895743011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 673
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9809d17e83d879450800000000000000
+      internalID: 6095495896204415113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 673
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab8d651de8890ef0800000000000000
+      internalID: -141431361437332563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 673
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f18ef6b7826ead0800000000000000
+      internalID: -2673404818174238906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_147
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 673
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d259041fb337de0800000000000000
+      internalID: -1336658757042229893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 673
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c16b571a35a9910800000000000000
+      internalID: 1844878950291348620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_149
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 673
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c6827c2dbae5eb0800000000000000
+      internalID: -4729153636919645078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 673
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf6dbc83f8f763d0800000000000000
+      internalID: -3213326084183593033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_151
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 673
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4d231efe6e08db0800000000000000
+      internalID: -4791576085572430616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 641
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910d9d054337a18b0800000000000000
+      internalID: -5180701752804388839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_153
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 641
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303251978ca26d760800000000000000
+      internalID: 7482214871435911939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_154
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 641
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6def22f87863bff10800000000000000
+      internalID: 2304495590180060886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_155
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 641
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3c509d166980fe0800000000000000
+      internalID: -1222561951834061831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_156
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 641
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1788b5e83bac120800000000000000
+      internalID: 2434955972549571029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_157
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 641
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473308b760e0b3710800000000000000
+      internalID: 1673947107502863220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_158
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 641
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c505a6a4facf5f130800000000000000
+      internalID: 3600061306950537308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_159
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 641
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de9fda7fba5a89a0800000000000000
+      internalID: -6230067356066930990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 609
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a7da5d3a8666fb0800000000000000
+      internalID: -4654918111966954921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_161
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 609
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85951f3733417ffb0800000000000000
+      internalID: -4614197081996699304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_162
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 609
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0e1075ea0f7f2f0800000000000000
+      internalID: -939017365708742475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_163
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 609
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf67cdfa78cf791e0800000000000000
+      internalID: -2191005033991211268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_164
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 609
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba051e0db4343330800000000000000
+      internalID: 3689631981313002166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_165
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 609
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380461a0c3de7cf40800000000000000
+      internalID: 5748824291484778627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_166
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 609
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f715d368c374af0800000000000000
+      internalID: -412294293629075658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_167
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 609
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bfdbe61b141f4b0800000000000000
+      internalID: -5408469447172293782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 577
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc30bdd41ef385a70800000000000000
+      internalID: 8815866507484136399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_169
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 577
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d111ad639cce3a740800000000000000
+      internalID: 5162229946849562909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_170
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 577
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22814e3f50740d630800000000000000
+      internalID: 3949734964096145442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_171
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 577
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310233d9d093fdfb0800000000000000
+      internalID: -4620911962024108013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_172
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 577
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35ce7dfd260b8bf0800000000000000
+      internalID: -321156153830619845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_173
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 577
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f431610c16ecd7000800000000000000
+      internalID: 35411291318653775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_174
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 577
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72076235497ddb630800000000000000
+      internalID: 3944545880696582183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 545
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4721b3e4834264a70800000000000000
+      internalID: 8810769545246216820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_176
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 545
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762a4fa5e6fb5eb50800000000000000
+      internalID: 6621909307811471975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 545
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec8d238d7304c670800000000000000
+      internalID: 8557969029517380843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_178
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 545
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d1ed46634efc7f0800000000000000
+      internalID: -590002103890600595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_179
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 545
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac023fb41ccb86650800000000000000
+      internalID: 6226434023228645578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_180
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 545
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa38b7a021cbd0f0800000000000000
+      internalID: -1091066138710230357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_181
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 545
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e500415163900a40800000000000000
+      internalID: 5332424004990928353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_182
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 545
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9737fbc9c9f6b42c0800000000000000
+      internalID: -4446337488662858887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_183
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e52045bc332cacd0800000000000000
+      internalID: -2545620945725282842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_184
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 513
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6835e7e20120c3870800000000000000
+      internalID: 8663802051676754822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_185
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 513
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2effe04bbe7e237e0800000000000000
+      internalID: -1787111102588452894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_186
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 513
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9e8249af8caf6f0800000000000000
+      internalID: -649986217648526883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_187
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 513
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41023d03848962a70800000000000000
+      internalID: 8801889957566423060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_188
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 513
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e7ab8603815a840800000000000000
+      internalID: 5234616738082618958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_189
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 513
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ecb43afddcb0410800000000000000
+      internalID: 1444474465903431290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_190
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 513
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31190b7b9059ec8c0800000000000000
+      internalID: -3977077551952522989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_191
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 481
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfbb47753cb6d9f0800000000000000
+      internalID: -443960575428673612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_192
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 481
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de738be8b456e6cd0800000000000000
+      internalID: -2562999762735843347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_193
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 481
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4aea43179fde2a0800000000000000
+      internalID: -6706430005474319189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_194
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 481
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8734a19ff5358f450800000000000000
+      internalID: 6122735365076435832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_195
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 481
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87bf5dd7085c45b0800000000000000
+      internalID: -5382830663812532337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_196
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 481
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28f95322b060a400800000000000000
+      internalID: 333372690638960685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_197
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 481
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113a6c007e2dce130800000000000000
+      internalID: 3597482091954479889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_198
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 481
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc3c8c05dd041080800000000000000
+      internalID: -9217727328630850339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 449
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c94617744f31230800000000000000
+      internalID: 3608496314136173701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_200
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 449
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4c63d9d59447360800000000000000
+      internalID: 7166433573471700204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_201
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 449
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768bd0fbf83255620800000000000000
+      internalID: 2762153046754310247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_202
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 449
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6610a9d1518073160800000000000000
+      internalID: 7005076632182063462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_203
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 449
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd8c01a898be25b0800000000000000
+      internalID: -5391168738239410763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_204
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 449
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22091dac26983dcf0800000000000000
+      internalID: -228688098663231454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_205
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 449
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8db1484991c72be0800000000000000
+      internalID: -1502019086618346102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_206
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 449
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4126e17854f0630800000000000000
+      internalID: 3895408649331414210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_207
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 417
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08818a5e066787fa0800000000000000
+      internalID: -5802757961324947328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_208
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 417
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dc154bd2b535290800000000000000
+      internalID: -7902872669248172716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_209
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 417
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ef4ba90412ce100800000000000000
+      internalID: 138522249898819079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_210
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 417
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f2b7cb9ea4ae9e0800000000000000
+      internalID: -1591377150572024026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_211
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 417
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00ba69a6a1e79170800000000000000
+      internalID: 8185258953692327948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_212
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 417
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82299948d9133e900800000000000000
+      internalID: 712467718658953768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_213
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 417
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f51c5b772ddcf840800000000000000
+      internalID: 5259321626504992247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_214
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 417
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20409b05e2e844f30800000000000000
+      internalID: 4558925052379726850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_215
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 385
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddf83037860ce970800000000000000
+      internalID: 8785404150792388054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_216
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 385
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd204b3be5d000ce0800000000000000
+      internalID: -1441137180365552931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_217
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 385
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6313534e279fcba0800000000000000
+      internalID: -6066463948090961044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_218
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 385
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8edc22fc0bcc0210800000000000000
+      internalID: 1300637648866303627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_219
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 385
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7cd4114b8b83260800000000000000
+      internalID: 7077609897936668645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_220
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 385
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67e33ea27b1b2e20800000000000000
+      internalID: 3326782929106102123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_221
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 385
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1d4db1349f99770800000000000000
+      internalID: 8618193428575212001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_222
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 385
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df13247f58adceec0800000000000000
+      internalID: -3536211338478865923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_223
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11198a176a56d4e50800000000000000
+      internalID: 6795199178317795601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_224
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc745e5ccc2d1be0800000000000000
+      internalID: -1504997444204331852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_225
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fa16479525a1540800000000000000
+      internalID: 4979382882169630472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_226
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a894b900434bc40800000000000000
+      internalID: 5527099819900373519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_227
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a62bc01e22bfb20800000000000000
+      internalID: 3169165112761281174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_228
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fea0feb3cffdbc0800000000000000
+      internalID: -3756006229859963133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_229
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636b54cf0193fe0d0800000000000000
+      internalID: -3391429249272007114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_230
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a9561b537528690800000000000000
+      internalID: -7601417332926866890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_231
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e559a626febbfb590800000000000000
+      internalID: -7656194204683823778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_232
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 321
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1f9118d3849ab40800000000000000
+      internalID: 5451968252904862183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_233
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 321
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b21d0ceaf21a6f0800000000000000
+      internalID: -675206041523115225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_234
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 321
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6778269c6ef363c0800000000000000
+      internalID: -4367367471290091669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_235
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 321
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf38a0e2a51a41330800000000000000
+      internalID: 3680744204160107515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_236
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 321
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2b0a374d7cca2f0800000000000000
+      internalID: -960172905249852678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_237
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 321
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f28a533cfb3a3e0800000000000000
+      internalID: -2043578960756330681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_238
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dced8da1881510e80800000000000000
+      internalID: -8214194600339251507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_239
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 289
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07274ee4df48a480800000000000000
+      internalID: -8887766088666372342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_240
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 289
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e220b0caa005fd0800000000000000
+      internalID: -2355370871079424359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_241
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 289
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27829a8245ea7fa10800000000000000
+      internalID: 1943213440716318834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_242
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 289
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0998a416538f52b10800000000000000
+      internalID: 1956242521311578512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_243
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 289
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e84081324c773fc0800000000000000
+      internalID: -3515204360399206168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_244
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 289
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815c0ce431a0195c0800000000000000
+      internalID: -4210573098572790504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_245
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 289
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4160e327bb85cce20800000000000000
+      internalID: 3372167783092454932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_246
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2875f3dfa47ee280800000000000000
+      internalID: -9012137505797605333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_247
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f34b0dd66cf7ff0800000000000000
+      internalID: -36092097040466154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_248
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fe629674feae040800000000000000
+      internalID: 4677814252963557221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_249
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d52099599b719120800000000000000
+      internalID: 2418850373437498836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_250
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d435641a6017ed2d0800000000000000
+      internalID: -3252037607625436339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_251
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6588f84b624148050800000000000000
+      internalID: 5801784376430659670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_252
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f6352cec8d26550800000000000000
+      internalID: 6152718423476629249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_253
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c938e312dc678ca0800000000000000
+      internalID: -6014719127797089848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_254
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5034a6250d856ec20800000000000000
+      internalID: 3235371034071417605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_255
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 225
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e021bb93ede901750800000000000000
+      internalID: 6273688958215590414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_256
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 225
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6840c8b06452b4870800000000000000
+      internalID: 8668062890576315526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_257
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 225
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60a4d635ddc663c0800000000000000
+      internalID: -4366576473057484693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_258
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 225
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413d858daabd76360800000000000000
+      internalID: 7162935259176686356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_259
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 225
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df263ad0e0d1686f0800000000000000
+      internalID: -682826347304492291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_260
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 225
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacd2a95a3fa11ae0800000000000000
+      internalID: -1580289329083523922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_261
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 225
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97dab640ecce0df0800000000000000
+      internalID: -212006868808444001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_262
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567d8f0cca5e9a5a0800000000000000
+      internalID: -6509419256252672155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_263
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b531b8917d6f07610800000000000000
+      internalID: 1617063669932954459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_264
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a40c5b410c7084e0800000000000000
+      internalID: -1981447491041885015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_265
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5342bb05599688590800000000000000
+      internalID: -7671765875200154571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_266
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166ec370d4e8d3580800000000000000
+      internalID: -8845757631600728479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_267
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e537ac7a8a357a0800000000000000
+      internalID: -6389578007699038642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_268
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7002c0265e30dfdd0800000000000000
+      internalID: -2450798338492325881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_269
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23449954bc1a1e1c0800000000000000
+      internalID: -4476118660211456974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_270
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09271d9c91b066730800000000000000
+      internalID: 3991890325098558096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_271
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5418eb369666500800000000000000
+      internalID: 389114294932948437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_272
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382412b038117c6a0800000000000000
+      internalID: -6429150688522976637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_273
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108fe8fad30b62e60800000000000000
+      internalID: 7937225172271953921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_274
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e89ad41c9a776e80800000000000000
+      internalID: -8185438986939229979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_275
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ff6e15b1ede1380800000000000000
+      internalID: -8998510796520095924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_276
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cb4f908245bd0d0800000000000000
+      internalID: -3397028962978448248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_277
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f23ed8e34da47a0800000000000000
+      internalID: -6392063355965460604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_278
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 129
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0eaaa1c8418c120800000000000000
+      internalID: 2434218190569136352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_279
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 129
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074128fb718d21bf0800000000000000
+      internalID: -354983824100027280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_280
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 129
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158fb63fd2cf1a790800000000000000
+      internalID: -7520452628444350383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_281
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 129
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0623bfffa1947d0800000000000000
+      internalID: -2933783995521802009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_282
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 129
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1074d3230290cc10800000000000000
+      internalID: 2071816370774110235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_283
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 129
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3308bd11caecc20800000000000000
+      internalID: 3228707175568257957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_284
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 129
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ba1312ffd406bb0800000000000000
+      internalID: -4944866632683902082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_285
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ba7512aee525330800000000000000
+      internalID: 3698122603699350366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_286
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 97
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0044e4622af50380800000000000000
+      internalID: -9005516854228926450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_287
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 97
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36704d57643e47a0800000000000000
+      internalID: -6391113202641373637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP_tiles_PandaMaru_hafenpub_288
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c704bf95f9d0c090800000000000000
+      internalID: -8016167687749892154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
