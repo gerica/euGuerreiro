@@ -1,0 +1,5 @@
+﻿1;Avareza;-10;0;O personagem está sempre preocupa­ do em conservar suas riquezas e sempre busca o melhor acordo possível. Ele deve fazer um teste de autocontrole sempre que tiver que gastar algum dinheiro.
+2;Azar;-10;0;O personagem é um azarado. Tudo dá errado para ele — normalmente, na pior hora possível.
+3;Código de Honra;-5;0;O personagem tem orgulho de um conjunto de princípios que ele segue a todo tempo.
+4;Covardia;-10;0;O personagem é extremamente cui dadoso com relação ao seu bem-estar físico. Sempre que surgir a necessidade de se arriscar fisicamente, ele deve fa­ zer um teste de autocontrole.
+5;Daltonismo;-10;0;O personagem não é capaz de distinguir nenhuma cor (isto é, sofre de acromatopsia). Em situações que exigem a identifica­ ção de cores (compra de pedras preciossa,

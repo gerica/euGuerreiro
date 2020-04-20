@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,6 +7,9 @@ public class MainMenuManager : MonoBehaviour {
     [SerializeField] GameObject panelListAdvantage;
     [SerializeField] GameObject listItemsAdvantage;
     [SerializeField] GameObject listAdvantageSelected;
+    [SerializeField] GameObject panelListDisAdvantage;
+    [SerializeField] GameObject listItemsDisAdvantage;
+    [SerializeField] GameObject listDisAdvantageSelected;
     [SerializeField] Text[] textAttribute;
     [SerializeField] int pointsToSpend = 100;
     [SerializeField] Text pointsToSpendComp;
@@ -16,8 +17,10 @@ public class MainMenuManager : MonoBehaviour {
     [SerializeField] Button[] checkButtons;
     [SerializeField] Sprite[] checkSpriteButtons;
     [SerializeField] Sprite[] typesSpriteSex;
-    [SerializeField] ItemAdvantage itemPrefab;
+    [SerializeField] ItemAdvantage itemAdvPrefab;
+    [SerializeField] ItemAdvantage itemDisAdvPrefab;
     [SerializeField] AdvSelected advSelectedPrefab;
+    [SerializeField] AdvSelected disSelectedPrefab;
 
     private Player player;
 
@@ -31,7 +34,8 @@ public class MainMenuManager : MonoBehaviour {
         typeSex.sprite = typesSpriteSex[initPos];
         checkButtons[initPos].image.sprite = checkSpriteButtons[1];
         checkButtons[1].image.sprite = checkSpriteButtons[0];
-        ListAdvantage.CreateList();
+        LoadDataFile.CreateListAdvantage();
+        LoadDataFile.CreateListDisadvantage();
         // TODO retirar no futuro
         player = new Player();
     }
@@ -55,6 +59,7 @@ public class MainMenuManager : MonoBehaviour {
     }
 
     public void UpdatePointToSpend(int value) {
+        Debug.Log(value);
         pointsToSpend += value;
         UpdatePointToSpendComp();
     }
@@ -126,7 +131,7 @@ public class MainMenuManager : MonoBehaviour {
     public void OpenListAdvantage() {
         panelListAdvantage.SetActive(true);
 
-        foreach (var item in ListAdvantage.list) {
+        foreach (var item in LoadDataFile.listAdvantage) {
             bool flag = false;
             foreach (var advPlay in player.Advantages) {
                 if (advPlay == item.Id) {
@@ -138,7 +143,7 @@ public class MainMenuManager : MonoBehaviour {
                 continue;
             }
 
-            CreateItemAdvantage(item);
+            CreateItemAdvantageDisadvantage(item, listItemsAdvantage, itemAdvPrefab);
         }
 
     }
@@ -155,23 +160,6 @@ public class MainMenuManager : MonoBehaviour {
 
     }
 
-    public void AddAdvantage(int id) {
-        player.AddAdvantage(id);
-        Advantage adv = FindById(id);
-        if (adv != null) {
-            UpdatePointToSpend(-adv.PointInit);
-        }
-        CloseListAdvantage();
-    }
-
-    public void RemoveAdvantage(int id) {
-        player.RemoveAdvantage(id);
-        Advantage adv = FindById(id);
-        if (adv != null) {
-            UpdatePointToSpend(adv.PointInit);
-        }
-        MountPanelAdvantage();
-    }
 
     public void MountPanelAdvantage() {
         AdvSelected[] advSelectedsLocal = listAdvantageSelected.transform.GetComponentsInChildren<AdvSelected>();
@@ -181,16 +169,24 @@ public class MainMenuManager : MonoBehaviour {
         }
 
         foreach (var idAdv in player.Advantages) {
-            foreach (var adv in ListAdvantage.list) {
+            foreach (var adv in LoadDataFile.listAdvantage) {
                 if (idAdv == adv.Id) {
-                    CreateAdvSelected(adv);
+                    CreateAdvSelected(adv, listAdvantageSelected, advSelectedPrefab);
                 }
             }
         }
     }
 
-    private Advantage FindById(int idAdv) {
-        foreach (var adv in ListAdvantage.list) {
+    private DisadvantageAdvantage FindByAdvId(int idAdv) {
+        foreach (var adv in LoadDataFile.listAdvantage) {
+            if (idAdv == adv.Id) {
+                return adv;
+            }
+        }
+        return null;
+    }
+    private DisadvantageAdvantage FindByDisId(int idAdv) {
+        foreach (var adv in LoadDataFile.listDisdvantage) {
             if (idAdv == adv.Id) {
                 return adv;
             }
@@ -198,21 +194,108 @@ public class MainMenuManager : MonoBehaviour {
         return null;
     }
 
-    private void CreateItemAdvantage(Advantage item) {
-        ItemAdvantage itemList = Instantiate(itemPrefab);
+    private void CreateItemAdvantageDisadvantage(DisadvantageAdvantage item, GameObject parent, ItemAdvantage prefab) {
+        ItemAdvantage itemList = Instantiate(prefab);
         itemList.Id = item.Id;
         itemList.NameValue = item.Name;
         itemList.PointValue = item.PointInit.ToString() + " pontos";
         itemList.DescriptionValue = item.Description;
-        itemList.transform.parent = listItemsAdvantage.transform; // para adicionar no componente pai
+        itemList.transform.parent = parent.transform; // para adicionar no componente pai
         itemList.transform.localScale = new Vector3(1, 1, 0);
     }
 
-    private void CreateAdvSelected(Advantage item) {
-        AdvSelected itemList = Instantiate(advSelectedPrefab);
+    private void CreateAdvSelected(DisadvantageAdvantage item, GameObject parent, AdvSelected prefab) {
+        AdvSelected itemList = Instantiate(prefab);
         itemList.Id = item.Id;
         itemList.NameValue = item.Name;
-        itemList.transform.parent = listAdvantageSelected.transform; // para adicionar no componente pai
+        itemList.transform.parent = parent.transform; // para adicionar no componente pai
         itemList.transform.localScale = new Vector3(1, 1, 0);
     }
+
+    public void OpenListDisadvantage() {
+        panelListDisAdvantage.SetActive(true);
+
+        foreach (var item in LoadDataFile.listDisdvantage) {
+            bool flag = false;
+            foreach (var advPlay in player.Disadvantages) {
+                if (advPlay == item.Id) {
+                    flag = true;
+                    break;
+                }
+            }
+            if (flag) {
+                continue;
+            }
+
+            CreateItemAdvantageDisadvantage(item, listItemsDisAdvantage, itemDisAdvPrefab);
+        }
+
+    }
+
+
+    public void CloseListDisadvantage() {
+        panelListDisAdvantage.SetActive(false);
+
+        ItemAdvantage[] itemAdvantage = listItemsDisAdvantage.transform.GetComponentsInChildren<ItemAdvantage>();
+        foreach (var item in itemAdvantage) {
+            Destroy(item.gameObject);
+        }
+        MountPanelDisadvantage();
+
+    }
+
+    public void AddAdvantage(int id) {
+        player.AddAdvantage(id);
+        DisadvantageAdvantage adv = FindByAdvId(id);
+        if (adv != null) {
+            UpdatePointToSpend(-adv.PointInit);
+        }
+        CloseListAdvantage();
+    }
+
+    public void RemoveAdvantage(int id) {
+        player.RemoveAdvantage(id);
+        DisadvantageAdvantage adv = FindByAdvId(id);
+        if (adv != null) {
+            UpdatePointToSpend(adv.PointInit);
+        }
+        MountPanelAdvantage();
+    }
+
+
+    public void AddDisdvantage(int id) {
+        player.AddDisadvantage(id);
+        DisadvantageAdvantage adv = FindByDisId(id);
+        if (adv != null) {
+            UpdatePointToSpend(-adv.PointInit);
+        }
+        CloseListDisadvantage();
+    }
+
+    public void RemoveDisadvantage(int id) {
+        player.RemoveDisadvantage(id);
+        DisadvantageAdvantage adv = FindByDisId(id);
+        if (adv != null) {
+            UpdatePointToSpend(adv.PointInit);
+        }
+        MountPanelDisadvantage();
+    }
+
+    public void MountPanelDisadvantage() {
+        AdvSelected[] advSelectedsLocal = listDisAdvantageSelected.transform.GetComponentsInChildren<AdvSelected>();
+
+        foreach (var item in advSelectedsLocal) {
+            Destroy(item.gameObject);
+        }
+
+        foreach (var idAdv in player.Disadvantages) {
+            foreach (var adv in LoadDataFile.listDisdvantage) {
+                if (idAdv == adv.Id) {
+                    CreateAdvSelected(adv, listDisAdvantageSelected, disSelectedPrefab);
+                }
+            }
+        }
+    }
+
+
 }

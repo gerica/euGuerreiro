@@ -20,4 +20,8 @@ public class AdvSelected : MonoBehaviour {
     public void RemoveAdvantage() {
         MainMenuManager.Instance.RemoveAdvantage(id);
     }
+
+    public void RemoveDisadvantage() {
+        MainMenuManager.Instance.RemoveDisadvantage(id);
+    }
 }

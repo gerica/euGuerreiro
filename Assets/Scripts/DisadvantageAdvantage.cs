@@ -1,5 +1,5 @@
 ﻿using System;
-public class Advantage {
+public class DisadvantageAdvantage {
     private int id;
     private string name;
     private int pointInit;

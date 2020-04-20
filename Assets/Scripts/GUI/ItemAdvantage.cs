@@ -35,4 +35,7 @@ public class ItemAdvantage : MonoBehaviour {
     public void AddAdvantage() {
         MainMenuManager.Instance.AddAdvantage(id);
     }
+    public void AddDisadvantage() {
+        MainMenuManager.Instance.AddDisdvantage(id);
+    }
 }
