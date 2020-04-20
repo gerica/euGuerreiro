@@ -11,6 +11,9 @@ public class MainMenuManager : MonoBehaviour {
     [SerializeField] GameObject panelListDisAdvantage;
     [SerializeField] GameObject listItemsDisAdvantage;
     [SerializeField] GameObject listDisAdvantageSelected;
+    [SerializeField] GameObject panelListSkills;
+    [SerializeField] GameObject listItemsSkills;
+    [SerializeField] GameObject listSkillsSelected;
     [SerializeField] Text[] textAttribute;
     [SerializeField] int pointsToSpend = 100;
     [SerializeField] Text pointsToSpendComp;
@@ -41,6 +44,9 @@ public class MainMenuManager : MonoBehaviour {
         LoadDataFile.CreateListDisadvantage();
         btnContinuar.SetActive(false);
         CheckSaveData();
+
+        //TODO
+        player = new PlayerData();
     }
 
     // Update is called once per frame
