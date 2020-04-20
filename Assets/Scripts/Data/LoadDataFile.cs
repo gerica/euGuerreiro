@@ -6,6 +6,7 @@ using UnityEngine;
 public static class LoadDataFile {
     public static List<DisadvantageAdvantage> listAdvantage = new List<DisadvantageAdvantage>();
     public static List<DisadvantageAdvantage> listDisdvantage = new List<DisadvantageAdvantage>();
+    public static List<Skill> listSkills = new List<Skill>();
 
     public static void CreateListAdvantage() {
         string allText = System.IO.File.ReadAllText(@"./Assets/Scripts/Files/listAdvantage.txt");
@@ -36,6 +37,22 @@ public static class LoadDataFile {
             adv.Description = words[4];
 
             listDisdvantage.Add(adv);
+        }
+    }
+
+    public static void CreateListSkills() {
+        string allText = System.IO.File.ReadAllText(@"./Assets/Scripts/Files/listSkill.txt");
+        string[] allTextSplit = allText.Split('\n');
+        foreach (var line in allTextSplit) {
+            var words = line.Split(';');
+            Skill obj = new Skill();
+            obj.Id = Int32.Parse(words[0]);
+            obj.Name = words[1];
+            obj.Type = words[2];
+            obj.Difficult = words[3];
+            obj.Description = words[4];
+
+            listSkills.Add(obj);
         }
     }
 }

@@ -1,0 +1,6 @@
+﻿1;Espadas Curtas;ST;Média;Qualquer arma equilibrada com 30 a 60 cm de comprimento empunhada com uma só mão incluindo o terçado e qualquer clava de tamanho e equilíbrio comparáveis
+2;Espadas de Lâmina Larga;ST;Média;Qualquer lâmina equilibrada para ser empunhada com uma só mão, me­ dindo entre 60 e 120 cm (entre elas a es­ pada larga, cimitarra, etc.). Essa perícia também cobre qualquer vara ou clava de tamanho e equilíbrio similar a essas lâminas, bem como a espada bastarda, a katana e a espada grande empunhadas com uma só mão.
+3;Espada de Duas Mãos;ST;Média;Qualquer lâmina equilibrada com 120 cm de comprimento empunhada com as duas mãos: espada grande, zweihander, etc.
+4;Arco;DX;Média;Esta é a perícia no uso de arcos longos, arcos curtos e todos os arcos similares.
+5;Maça/Machado;ST;Média;Qual­ quer arma de impacto curta ou média empunhada com uma só mão, como o machado, a machadinha, a maça, a pica­ reta, etc.
+6;Magia Ritualística;IQ;Difícil;Esta perícia oferece uma compreensão dos processos intelectuais e místicos que envolvidos nos rituais de uma determi nada tradição de invocar espíritos. 

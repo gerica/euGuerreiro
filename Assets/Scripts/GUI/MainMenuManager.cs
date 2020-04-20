@@ -4,30 +4,54 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class MainMenuManager : MonoBehaviour {
+    [Header("Configurações painel central")]
     [SerializeField] GameObject panelCreatePlayer;
+
+    [Space]
+    [Header("Configurações vantagens")]
     [SerializeField] GameObject panelListAdvantage;
     [SerializeField] GameObject listItemsAdvantage;
     [SerializeField] GameObject listAdvantageSelected;
+    [SerializeField] ItemAdvantage itemAdvPrefab;
+    [SerializeField] AdvSelected advSelectedPrefab;
+    private HelpAdvantage helpAdv;
+
+    [Space]
+    [Header("Configurações desvantagens")]
     [SerializeField] GameObject panelListDisAdvantage;
     [SerializeField] GameObject listItemsDisAdvantage;
     [SerializeField] GameObject listDisAdvantageSelected;
+    [SerializeField] ItemAdvantage itemDisAdvPrefab;
+    [SerializeField] AdvSelected disSelectedPrefab;
+    private HelpDisadvantage helpDisAdv;
+
+    [Space]
+    [Header("Configurações perícias")]
     [SerializeField] GameObject panelListSkills;
     [SerializeField] GameObject listItemsSkills;
     [SerializeField] GameObject listSkillsSelected;
+    [SerializeField] ItemSkill itemSkillPrefab;
+    [SerializeField] Text textConstTotalSkills;
+    [SerializeField] SkillSelected skillSelectedPrefab;
+    private HelpSkill helpSkill;
+
+    [Space]
+    [Header("Atributos")]
     [SerializeField] Text[] textAttribute;
+
+    [Space]
+    [Header("Geral")]
     [SerializeField] int pointsToSpend = 100;
     [SerializeField] Text pointsToSpendComp;
     [SerializeField] Image typeSex;
     [SerializeField] Button[] checkButtons;
     [SerializeField] Sprite[] checkSpriteButtons;
     [SerializeField] Sprite[] typesSpriteSex;
-    [SerializeField] ItemAdvantage itemAdvPrefab;
-    [SerializeField] ItemAdvantage itemDisAdvPrefab;
-    [SerializeField] AdvSelected advSelectedPrefab;
-    [SerializeField] AdvSelected disSelectedPrefab;
     [SerializeField] InputField inputFieldName;
     [SerializeField] GameObject btnContinuar;
+    [SerializeField] GameObject panelWarning;
 
+    private HelpPoints helpPoints;
     private PlayerData player;
 
     public static MainMenuManager Instance { get; set; }
@@ -35,18 +59,54 @@ public class MainMenuManager : MonoBehaviour {
     // Start is called before the first frame update
     void Start() {
         Instance = this;
-        var initPos = 0;
-        UpdatePointToSpendComp();
-        typeSex.sprite = typesSpriteSex[initPos];
-        checkButtons[initPos].image.sprite = checkSpriteButtons[1];
-        checkButtons[1].image.sprite = checkSpriteButtons[0];
-        LoadDataFile.CreateListAdvantage();
-        LoadDataFile.CreateListDisadvantage();
         btnContinuar.SetActive(false);
         CheckSaveData();
 
-        //TODO
-        player = new PlayerData();
+    }
+
+    private void ConfigureHelpPoints() {
+        helpPoints = new HelpPoints();
+        helpPoints.PointsToSpend = pointsToSpend;
+        helpPoints.PointsToSpendComp = pointsToSpendComp;
+    }
+
+    private void ConfigureHelpAdvantage() {
+        helpAdv = this.gameObject.AddComponent<HelpAdvantage>();
+        helpAdv.HelpPoints = helpPoints;
+        helpAdv.Player = player;
+
+        helpAdv.ListAdvantageSelected = listAdvantageSelected;
+        helpAdv.PanelListAdvantage = panelListAdvantage;
+        helpAdv.ListItemsAdvantage = listItemsAdvantage;
+        helpAdv.ItemAdvPrefab = itemAdvPrefab;
+        helpAdv.AdvSelectedPrefab = advSelectedPrefab;
+    }
+
+    private void ConfigureHelpDisadvantage() {
+        helpDisAdv = this.gameObject.AddComponent<HelpDisadvantage>();
+        helpDisAdv.HelpPoints = helpPoints;
+        helpDisAdv.Player = player;
+
+        helpDisAdv.ListDisAdvantageSelected = listDisAdvantageSelected;
+        helpDisAdv.PanelListDisAdvantage = panelListDisAdvantage;
+        helpDisAdv.ListItemsDisAdvantage = listItemsDisAdvantage;
+        helpDisAdv.ItemDisAdvPrefab = itemDisAdvPrefab;
+        helpDisAdv.DisSelectedPrefab = disSelectedPrefab;
+    }
+
+
+    private void ConfigureHelpSkill() {
+        helpSkill = this.gameObject.AddComponent<HelpSkill>();
+        helpSkill.HelpPoints = helpPoints;
+        helpSkill.Player = player;
+
+        helpSkill.ListSkillsSelected = listSkillsSelected;
+        helpSkill.PanelListSkills = panelListSkills;
+        helpSkill.ListItemsSkills = listItemsSkills;
+        helpSkill.ItemPrefab = itemSkillPrefab;
+        helpSkill.ConstTotalSkills = textConstTotalSkills;
+        helpSkill.SkillSelectedPrefab = skillSelectedPrefab;
+
     }
 
     // Update is called once per frame
@@ -66,8 +126,33 @@ public class MainMenuManager : MonoBehaviour {
     }
 
     public void NewGame() {
+        InitPlayer();
+        InitGUI();
+        Debug.Log(player);
+    }
+
+    private void InitPlayer() {
         player = new PlayerData();
         panelCreatePlayer.SetActive(true);
+        player.St = Int32.Parse(textAttribute[0].text);
+        player.Dx = Int32.Parse(textAttribute[1].text);
+        player.Iq = Int32.Parse(textAttribute[2].text);
+        player.Ht = Int32.Parse(textAttribute[3].text);
+    }
+
+    private void InitGUI() {
+        ConfigureHelpPoints();
+        ConfigureHelpAdvantage();
+        ConfigureHelpDisadvantage();
+        ConfigureHelpSkill();
+        var initPos = 0;
+        helpPoints.UpdatePointToSpendComp();
+        typeSex.sprite = typesSpriteSex[initPos];
+        checkButtons[initPos].image.sprite = checkSpriteButtons[1];
+        checkButtons[1].image.sprite = checkSpriteButtons[0];
+        LoadDataFile.CreateListAdvantage();
+        LoadDataFile.CreateListDisadvantage();
+        LoadDataFile.CreateListSkills();
     }
 
     public void Cancel() {
@@ -76,26 +161,47 @@ public class MainMenuManager : MonoBehaviour {
 
     public void SavePlayer() {
         player.NamePlayer = inputFieldName.text;
-        player.St = Int32.Parse(textAttribute[0].text);
-        player.Dx = Int32.Parse(textAttribute[1].text);
-        player.Iq = Int32.Parse(textAttribute[2].text);
-        player.Ht = Int32.Parse(textAttribute[3].text);
+        //player.St = Int32.Parse(textAttribute[0].text);
+        //player.Dx = Int32.Parse(textAttribute[1].text);
+        //player.Iq = Int32.Parse(textAttribute[2].text);
+        //player.Ht = Int32.Parse(textAttribute[3].text);
+        if (ValidSavePlayer()) {
+            SaveData.SavePlayer(player);
+        } else {
+            OpenPanelWarning();
+        }
+    }
 
-        SaveData.SavePlayer(player);
+
+    private bool ValidSavePlayer() {
+        if (player.NamePlayer == null || player.NamePlayer == "") {
+            return false;
+        }
+
+        if (player.Advantages.Count == 0) {
+            return false;
+        }
+
+        if (player.Disadvantages.Count == 0) {
+            return false;
+        }
+
+        if (player.Skills.Count == 0) {
+            return false;
+        }
+        return true;
     }
 
     public void QuitGame() {
         Application.Quit();
     }
 
-    public void UpdatePointToSpend(int value) {
-        Debug.Log(value);
-        pointsToSpend += value;
-        UpdatePointToSpendComp();
+    public void OpenPanelWarning() {
+        panelWarning.SetActive(true);
     }
 
-    public void UpdatePointToSpendComp() {
-        pointsToSpendComp.text = pointsToSpend.ToString();
+    public void ClosePanelWarning() {
+        panelWarning.SetActive(false);
     }
 
     public void SelectTypeSex(int pos) {
@@ -112,217 +218,108 @@ public class MainMenuManager : MonoBehaviour {
     }
 
     public void PlusAttribute(int position) {
-        int val = Int32.Parse(textAttribute[position].text);
-        val++;
-        textAttribute[position].text = val.ToString();
         switch (position) {
-            case 0:
-                UpdatePointToSpend(-10);
+            case 0: // ST
+                player.St++;
+                textAttribute[position].text = player.St.ToString();
+                helpPoints.UpdatePointToSpend(-10);
                 break;
-            case 1:
-                UpdatePointToSpend(-10);
+            case 1: // DX
+                player.Dx++;
+                textAttribute[position].text = player.Dx.ToString();
+                helpPoints.UpdatePointToSpend(-10);
                 break;
-            case 2:
-                UpdatePointToSpend(-20);
+            case 2: // IQ
+                player.Iq++;
+                textAttribute[position].text = player.Iq.ToString();
+                helpPoints.UpdatePointToSpend(-20);
                 break;
-            case 3:
-                UpdatePointToSpend(-20);
+            case 3: // HT
+                player.Ht++;
+                textAttribute[position].text = player.Ht.ToString();
+                helpPoints.UpdatePointToSpend(-20);
                 break;
             default:
                 break;
         }
+        helpSkill.MountPanelItemSelected();
     }
 
     public void MinusAttribute(int position) {
-        int val = Int32.Parse(textAttribute[position].text);
-        val--;
-        textAttribute[position].text = val.ToString();
         switch (position) {
-            case 0:
-                UpdatePointToSpend(10);
+            case 0: // ST
+                player.St--;
+                textAttribute[position].text = player.St.ToString();
+                helpPoints.UpdatePointToSpend(10);
                 break;
-            case 1:
-                UpdatePointToSpend(10);
+            case 1: // DX
+                player.Dx--;
+                textAttribute[position].text = player.Dx.ToString();
+                helpPoints.UpdatePointToSpend(10);
                 break;
-            case 2:
-                UpdatePointToSpend(15);
+            case 2: // IQ
+                player.Iq--;
+                textAttribute[position].text = player.Iq.ToString();
+                helpPoints.UpdatePointToSpend(15);
                 break;
-            case 3:
-                UpdatePointToSpend(15);
+            case 3: // HT
+                player.Ht--;
+                textAttribute[position].text = player.Ht.ToString();
+                helpPoints.UpdatePointToSpend(15);
                 break;
             default:
                 break;
         }
+        helpSkill.MountPanelItemSelected();
     }
 
     public void OpenListAdvantage() {
-        panelListAdvantage.SetActive(true);
-
-        foreach (var item in LoadDataFile.listAdvantage) {
-            bool flag = false;
-            foreach (var advPlay in player.Advantages) {
-                if (advPlay == item.Id) {
-                    flag = true;
-                    break;
-                }
-            }
-            if (flag) {
-                continue;
-            }
-
-            CreateItemAdvantageDisadvantage(item, listItemsAdvantage, itemAdvPrefab);
-        }
-
+        helpAdv.OpenListAdvantage();
     }
-
 
     public void CloseListAdvantage() {
-        panelListAdvantage.SetActive(false);
-
-        ItemAdvantage[] itemAdvantage = listItemsAdvantage.transform.GetComponentsInChildren<ItemAdvantage>();
-        foreach (var item in itemAdvantage) {
-            Destroy(item.gameObject);
-        }
-        MountPanelAdvantage();
-
-    }
-
-
-    public void MountPanelAdvantage() {
-        AdvSelected[] advSelectedsLocal = listAdvantageSelected.transform.GetComponentsInChildren<AdvSelected>();
-
-        foreach (var item in advSelectedsLocal) {
-            Destroy(item.gameObject);
-        }
-
-        foreach (var idAdv in player.Advantages) {
-            foreach (var adv in LoadDataFile.listAdvantage) {
-                if (idAdv == adv.Id) {
-                    CreateAdvSelected(adv, listAdvantageSelected, advSelectedPrefab);
-                }
-            }
-        }
-    }
-
-    private DisadvantageAdvantage FindByAdvId(int idAdv) {
-        foreach (var adv in LoadDataFile.listAdvantage) {
-            if (idAdv == adv.Id) {
-                return adv;
-            }
-        }
-        return null;
-    }
-    private DisadvantageAdvantage FindByDisId(int idAdv) {
-        foreach (var adv in LoadDataFile.listDisdvantage) {
-            if (idAdv == adv.Id) {
-                return adv;
-            }
-        }
-        return null;
-    }
-
-    private void CreateItemAdvantageDisadvantage(DisadvantageAdvantage item, GameObject parent, ItemAdvantage prefab) {
-        ItemAdvantage itemList = Instantiate(prefab);
-        itemList.Id = item.Id;
-        itemList.NameValue = item.Name;
-        itemList.PointValue = item.PointInit.ToString() + " pontos";
-        itemList.DescriptionValue = item.Description;
-        itemList.transform.parent = parent.transform; // para adicionar no componente pai
-        itemList.transform.localScale = new Vector3(1, 1, 0);
-    }
-
-    private void CreateAdvSelected(DisadvantageAdvantage item, GameObject parent, AdvSelected prefab) {
-        AdvSelected itemList = Instantiate(prefab);
-        itemList.Id = item.Id;
-        itemList.NameValue = item.Name;
-        itemList.transform.parent = parent.transform; // para adicionar no componente pai
-        itemList.transform.localScale = new Vector3(1, 1, 0);
-    }
-
-    public void OpenListDisadvantage() {
-        panelListDisAdvantage.SetActive(true);
-
-        foreach (var item in LoadDataFile.listDisdvantage) {
-            bool flag = false;
-            foreach (var advPlay in player.Disadvantages) {
-                if (advPlay == item.Id) {
-                    flag = true;
-                    break;
-                }
-            }
-            if (flag) {
-                continue;
-            }
-
-            CreateItemAdvantageDisadvantage(item, listItemsDisAdvantage, itemDisAdvPrefab);
-        }
-
-    }
-
-
-    public void CloseListDisadvantage() {
-        panelListDisAdvantage.SetActive(false);
-
-        ItemAdvantage[] itemAdvantage = listItemsDisAdvantage.transform.GetComponentsInChildren<ItemAdvantage>();
-        foreach (var item in itemAdvantage) {
-            Destroy(item.gameObject);
-        }
-        MountPanelDisadvantage();
-
+        helpAdv.CloseListAdvantage();
     }
 
     public void AddAdvantage(int id) {
-        player.AddAdvantage(id);
-        DisadvantageAdvantage adv = FindByAdvId(id);
-        if (adv != null) {
-            UpdatePointToSpend(-adv.PointInit);
-        }
-        CloseListAdvantage();
+        helpAdv.AddAdvantage(id);
     }
 
     public void RemoveAdvantage(int id) {
-        player.RemoveAdvantage(id);
-        DisadvantageAdvantage adv = FindByAdvId(id);
-        if (adv != null) {
-            UpdatePointToSpend(adv.PointInit);
-        }
-        MountPanelAdvantage();
+        helpAdv.RemoveAdvantage(id);
     }
 
+    public void OpenListDisadvantage() {
+        helpDisAdv.OpenListDisadvantage();
+    }
+
+    public void CloseListDisadvantage() {
+        helpDisAdv.CloseListDisadvantage();
+    }
 
     public void AddDisdvantage(int id) {
-        player.AddDisadvantage(id);
-        DisadvantageAdvantage adv = FindByDisId(id);
-        if (adv != null) {
-            UpdatePointToSpend(-adv.PointInit);
-        }
-        CloseListDisadvantage();
+        helpDisAdv.AddDisdvantage(id);
     }
 
     public void RemoveDisadvantage(int id) {
-        player.RemoveDisadvantage(id);
-        DisadvantageAdvantage adv = FindByDisId(id);
-        if (adv != null) {
-            UpdatePointToSpend(adv.PointInit);
-        }
-        MountPanelDisadvantage();
+        helpDisAdv.RemoveDisadvantage(id);
     }
 
-    public void MountPanelDisadvantage() {
-        AdvSelected[] advSelectedsLocal = listDisAdvantageSelected.transform.GetComponentsInChildren<AdvSelected>();
-
-        foreach (var item in advSelectedsLocal) {
-            Destroy(item.gameObject);
-        }
-
-        foreach (var idAdv in player.Disadvantages) {
-            foreach (var adv in LoadDataFile.listDisdvantage) {
-                if (idAdv == adv.Id) {
-                    CreateAdvSelected(adv, listDisAdvantageSelected, disSelectedPrefab);
-                }
-            }
-        }
+    public void OpenListSkills() {
+        helpSkill.OpenList();
+        //panelListSkills.SetActive(true);
     }
 
+    public void CloseListSkills() {
+        helpSkill.CloseList();
+    }
+
+    public void ConfirmListSkills() {
+        helpSkill.ConfirmChooseSkills();
+    }
+
+    public void UpdatePoints() {
+        helpSkill.UpdatePanelPoints();
+    }
 
 }
