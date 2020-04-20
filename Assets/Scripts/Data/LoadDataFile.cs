@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LoadDataFile {
+public static class LoadDataFile {
     public static List<DisadvantageAdvantage> listAdvantage = new List<DisadvantageAdvantage>();
     public static List<DisadvantageAdvantage> listDisdvantage = new List<DisadvantageAdvantage>();
 

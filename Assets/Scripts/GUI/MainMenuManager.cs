@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,8 +22,10 @@ public class MainMenuManager : MonoBehaviour {
     [SerializeField] ItemAdvantage itemDisAdvPrefab;
     [SerializeField] AdvSelected advSelectedPrefab;
     [SerializeField] AdvSelected disSelectedPrefab;
+    [SerializeField] InputField inputFieldName;
+    [SerializeField] GameObject btnContinuar;
 
-    private Player player;
+    private PlayerData player;
 
     public static MainMenuManager Instance { get; set; }
 
@@ -36,8 +39,8 @@ public class MainMenuManager : MonoBehaviour {
         checkButtons[1].image.sprite = checkSpriteButtons[0];
         LoadDataFile.CreateListAdvantage();
         LoadDataFile.CreateListDisadvantage();
-        // TODO retirar no futuro
-        player = new Player();
+        btnContinuar.SetActive(false);
+        CheckSaveData();
     }
 
     // Update is called once per frame
@@ -45,13 +48,34 @@ public class MainMenuManager : MonoBehaviour {
 
     }
 
+    public void CheckSaveData() {
+        //player = new Player();
+        List<PlayerData> players = SaveData.LoadPlayers();
+        if (players.Count > 0) {
+            btnContinuar.SetActive(true);
+            foreach (var i in players) {
+                Debug.Log(i);
+            }
+        }
+    }
+
     public void NewGame() {
-        player = new Player();
+        player = new PlayerData();
         panelCreatePlayer.SetActive(true);
     }
 
     public void Cancel() {
         panelCreatePlayer.SetActive(false);
+    }
+
+    public void SavePlayer() {
+        player.NamePlayer = inputFieldName.text;
+        player.St = Int32.Parse(textAttribute[0].text);
+        player.Dx = Int32.Parse(textAttribute[1].text);
+        player.Iq = Int32.Parse(textAttribute[2].text);
+        player.Ht = Int32.Parse(textAttribute[3].text);
+
+        SaveData.SavePlayer(player);
     }
 
     public void QuitGame() {
@@ -73,14 +97,11 @@ public class MainMenuManager : MonoBehaviour {
         if (pos == 0) {
             checkButtons[0].image.sprite = checkSpriteButtons[1];
             checkButtons[1].image.sprite = checkSpriteButtons[0];
+            player.Sex = "M";
         } else {
-            Debug.Log("aqui " + pos);
             checkButtons[0].image.sprite = checkSpriteButtons[0];
             checkButtons[1].image.sprite = checkSpriteButtons[1];
-            Debug.Log(checkSpriteButtons[0]);
-            Debug.Log(checkSpriteButtons[1]);
-            Debug.Log(checkButtons[1].image.sprite);
-
+            player.Sex = "F";
         }
     }
 
