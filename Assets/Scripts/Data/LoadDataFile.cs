@@ -55,4 +55,18 @@ public static class LoadDataFile {
             listSkills.Add(obj);
         }
     }
+
+    public static List<HistoryData> LoadHistories() {
+        List<HistoryData> datas = new List<HistoryData>();
+        HistoryData data;
+        string allText = System.IO.File.ReadAllText(@"./Assets/Scripts/Files/history-intro.txt");
+        string[] allTextSplit = allText.Split('\n');
+        foreach (var line in allTextSplit) {
+            Debug.Log(line);
+            data = new HistoryData(line);
+            datas.Add(data);
+        }
+
+        return datas;
+    }
 }

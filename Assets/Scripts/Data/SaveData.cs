@@ -14,6 +14,14 @@ public static class SaveData {
         stream.Close();
     }
 
+    public static bool IsLoadPlayers() {
+        if (Directory.Exists(path)) {
+            // This path is a directory
+            return HasSaveGame(path);
+        }
+        return false;
+
+    }
     public static List<PlayerData> LoadPlayers() {
         if (Directory.Exists(path)) {
             // This path is a directory
@@ -54,6 +62,13 @@ public static class SaveData {
         return result;
     }
 
+    public static bool HasSaveGame(string targetDirectory) {
+        string[] fileEntries = Directory.GetFiles(targetDirectory);
+        if (fileEntries.Length > 0) {
+            return true;
+        }
 
+        return false;
+    }
 
 }

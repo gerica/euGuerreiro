@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour {
     [Header("Configurações painel central")]
@@ -109,26 +110,20 @@ public class MainMenuManager : MonoBehaviour {
 
     }
 
-    // Update is called once per frame
-    void Update() {
-
-    }
-
     public void CheckSaveData() {
-        //player = new Player();
-        List<PlayerData> players = SaveData.LoadPlayers();
-        if (players.Count > 0) {
+        if (SaveData.IsLoadPlayers()) {
             btnContinuar.SetActive(true);
-            foreach (var i in players) {
-                Debug.Log(i);
-            }
         }
     }
 
     public void NewGame() {
         InitPlayer();
         InitGUI();
-        Debug.Log(player);
+    }
+
+    public void ContinueGame() {
+        Debug.Log(EnumScenes.ContinueGame.ToString());
+        SceneManager.LoadScene(EnumScenes.ContinueGame.ToString());
     }
 
     private void InitPlayer() {
