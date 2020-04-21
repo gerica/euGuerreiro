@@ -122,8 +122,8 @@ public class MainMenuManager : MonoBehaviour {
     }
 
     public void ContinueGame() {
-        Debug.Log(EnumScenes.ContinueGame.ToString());
         SceneManager.LoadScene(EnumScenes.ContinueGame.ToString());
+        //Destroy(gameObject);
     }
 
     private void InitPlayer() {
@@ -156,12 +156,10 @@ public class MainMenuManager : MonoBehaviour {
 
     public void SavePlayer() {
         player.NamePlayer = inputFieldName.text;
-        //player.St = Int32.Parse(textAttribute[0].text);
-        //player.Dx = Int32.Parse(textAttribute[1].text);
-        //player.Iq = Int32.Parse(textAttribute[2].text);
-        //player.Ht = Int32.Parse(textAttribute[3].text);
         if (ValidSavePlayer()) {
             SaveData.SavePlayer(player);
+            Session.Player = player;
+            SceneManager.LoadScene(EnumScenes.IntroGame.ToString());
         } else {
             OpenPanelWarning();
         }
@@ -204,11 +202,11 @@ public class MainMenuManager : MonoBehaviour {
         if (pos == 0) {
             checkButtons[0].image.sprite = checkSpriteButtons[1];
             checkButtons[1].image.sprite = checkSpriteButtons[0];
-            player.Sex = "M";
+            player.Sex = EnumSex.M;
         } else {
             checkButtons[0].image.sprite = checkSpriteButtons[0];
             checkButtons[1].image.sprite = checkSpriteButtons[1];
-            player.Sex = "F";
+            player.Sex = EnumSex.F;
         }
     }
 

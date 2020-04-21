@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,14 +10,15 @@ public class GameMenuManager : MonoBehaviour {
     [SerializeField] AdvSelected advSelectedPrefab;
     [SerializeField] AdvSelected disSelectedPrefab;
     [SerializeField] SkillSelected skillSelectedPrefab;
+    [SerializeField] Sprite[] typesSpriteSex;
 
     public static GameMenuManager Instance { get; set; }
     // Start is called before the first frame update
     void Start() {
         Instance = this;
-        LoadDataFile.CreateListAdvantage();
-        LoadDataFile.CreateListDisadvantage();
-        LoadDataFile.CreateListSkills();
+        //LoadDataFile.CreateListAdvantage();
+        //LoadDataFile.CreateListDisadvantage();
+        //LoadDataFile.CreateListSkills();
     }
 
     // Update is called once per frame
@@ -67,17 +69,30 @@ public class GameMenuManager : MonoBehaviour {
     }
 
     private void UpdateContainerStatus(GameObject container) {
-        Debug.Log("Chamou");
         PlayerData player = PlayerController.Instance.PlayerData;
         UpdateContainerInfo(container, player);
 
         GridLayoutGroup[] grids = container.GetComponentsInChildren<GridLayoutGroup>();
 
         foreach (GridLayoutGroup grid in grids) {
-            Debug.Log(grid);
             MountAdvantage(player, grid);
             MountDisadvantage(player, grid);
             MountListSkills(container, player);
+            MounyImgSex(container, player);
+        }
+    }
+
+    private void MounyImgSex(GameObject container, PlayerData player) {
+        Image[] images = container.GetComponentsInChildren<Image>();
+        foreach (Image image in images) {
+            if (image.name == EnumContainerStatus.typeSex.ToString()) {
+                if (EnumSex.M == player.Sex) {
+                    image.sprite = typesSpriteSex[0];
+                } else {
+                    image.sprite = typesSpriteSex[1];
+                }
+                break;
+            }
         }
     }
 
@@ -111,18 +126,12 @@ public class GameMenuManager : MonoBehaviour {
                 Destroy(item.gameObject);
             }
 
-            foreach (var idAdv in player.Advantages) {
-                //Debug.Log(idAdv);
-                foreach (var adv in LoadDataFile.listAdvantage) {
-                    if (idAdv == adv.Id) {
-                        AdvSelected itemList = Instantiate(advSelectedPrefab);
-                        itemList.Id = adv.Id;
-                        itemList.NameValue = adv.Name;
-                        itemList.transform.SetParent(grid.transform); // para adicionar no componente pai
-                        itemList.transform.localScale = new Vector3(1, 1, 0);
-                        break;
-                    }
-                }
+            foreach (var adv in player.Advantages) {
+                AdvSelected itemList = Instantiate(advSelectedPrefab);
+                itemList.Id = adv.Id;
+                itemList.NameValue = adv.Name;
+                itemList.transform.SetParent(grid.transform); // para adicionar no componente pai
+                itemList.transform.localScale = new Vector3(1, 1, 0);
             }
         }
     }
@@ -136,18 +145,12 @@ public class GameMenuManager : MonoBehaviour {
                 Destroy(item.gameObject);
             }
 
-            foreach (var idAdv in player.Disadvantages) {
-                foreach (var adv in LoadDataFile.listDisdvantage) {
-                    if (idAdv == adv.Id) {
-                        Debug.Log(idAdv);
-                        AdvSelected itemList = Instantiate(disSelectedPrefab);
-                        itemList.Id = adv.Id;
-                        itemList.NameValue = adv.Name;
-                        itemList.transform.SetParent(grid.transform); // para adicionar no componente pai
-                        itemList.transform.localScale = new Vector3(1, 1, 0);
-                        break;
-                    }
-                }
+            foreach (var obj in player.Disadvantages) {
+                AdvSelected itemList = Instantiate(disSelectedPrefab);
+                itemList.Id = obj.Id;
+                itemList.NameValue = obj.Name;
+                itemList.transform.SetParent(grid.transform); // para adicionar no componente pai
+                itemList.transform.localScale = new Vector3(1, 1, 0);
             }
         }
     }

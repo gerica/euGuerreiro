@@ -62,7 +62,6 @@ public static class LoadDataFile {
         string allText = System.IO.File.ReadAllText(@"./Assets/Scripts/Files/history-intro.txt");
         string[] allTextSplit = allText.Split('\n');
         foreach (var line in allTextSplit) {
-            Debug.Log(line);
             data = new HistoryData(line);
             datas.Add(data);
         }

@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
-    private bool gameMenuOpen;
     public static GameManager Instance { get; set; }
     public bool BattleActive { get; set; }
-    public bool GameMenuOpen { get => gameMenuOpen; set => gameMenuOpen = value; }
+    public bool GameMenuOpen { get; set; }
 
     // Start is called before the first frame update
     void Start() {

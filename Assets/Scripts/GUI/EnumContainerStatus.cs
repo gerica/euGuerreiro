@@ -9,4 +9,6 @@ public enum EnumContainerStatus {
     listAdvSelected,
     listDisSelected,
     listSkillsSelected,
+
+    typeSex,
 }

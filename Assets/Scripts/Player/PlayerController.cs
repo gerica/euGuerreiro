@@ -20,8 +20,6 @@ public class PlayerController : MonoBehaviour {
     public PlayerData PlayerData { get => playerData; set => playerData = value; }
 
     private void Start() {
-        Debug.Log("chamou player controller");
-        Debug.Log(playerData);
         // para ter somente um personagem, uma instancia mesmo após trocar de cena
         if (Instance == null) {
             Instance = this;

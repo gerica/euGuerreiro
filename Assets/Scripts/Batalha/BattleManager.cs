@@ -12,7 +12,7 @@ public class BattleManager : MonoBehaviour {
     [SerializeField] Text[] dices;
     [SerializeField] float speedDice = 0.1f;
 
-    private int typeDice = 6;
+    private int typeDice = 7;
 
     public int TypeDice { get => typeDice; set => typeDice = value; }
 

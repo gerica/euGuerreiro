@@ -2,5 +2,6 @@
 public enum EnumScenes {
     ContinueGame,
     Labirinto_1,
-    MainMenu
+    MainMenu,
+    IntroGame,
 }

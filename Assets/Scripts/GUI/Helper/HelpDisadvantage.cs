@@ -23,7 +23,7 @@ public class HelpDisadvantage : HelpGUI {
         foreach (var item in LoadDataFile.listDisdvantage) {
             bool flag = false;
             foreach (var advPlay in player.Disadvantages) {
-                if (advPlay == item.Id) {
+                if (advPlay.Id == item.Id) {
                     flag = true;
                     break;
                 }
@@ -49,19 +49,19 @@ public class HelpDisadvantage : HelpGUI {
     }
 
     public void AddDisdvantage(int id) {
-        player.AddDisadvantage(id);
-        DisadvantageAdvantage adv = FindByDisId(id);
-        if (adv != null) {
-            UpdatePointToSpend(-adv.PointInit);
+        DisadvantageAdvantage obj = FindByDisId(id);
+        player.Disadvantages.Add(obj);
+        if (obj != null) {
+            UpdatePointToSpend(-obj.PointInit);
         }
         CloseListDisadvantage();
     }
 
     public void RemoveDisadvantage(int id) {
-        player.RemoveDisadvantage(id);
-        DisadvantageAdvantage adv = FindByDisId(id);
-        if (adv != null) {
-            UpdatePointToSpend(adv.PointInit);
+        DisadvantageAdvantage obj = FindByDisId(id);
+        player.Disadvantages.Remove(obj);
+        if (obj != null) {
+            UpdatePointToSpend(obj.PointInit);
         }
         MountPanelDisadvantage();
     }
@@ -73,12 +73,8 @@ public class HelpDisadvantage : HelpGUI {
             Destroy(item.gameObject);
         }
 
-        foreach (var idAdv in player.Disadvantages) {
-            foreach (var adv in LoadDataFile.listDisdvantage) {
-                if (idAdv == adv.Id) {
-                    CreateAdvSelected(adv, listDisAdvantageSelected, disSelectedPrefab);
-                }
-            }
+        foreach (var obj in player.Disadvantages) {
+            CreateAdvSelected(obj, listDisAdvantageSelected, disSelectedPrefab);
         }
     }
 

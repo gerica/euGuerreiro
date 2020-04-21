@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ContinueGame.unity
     guid: 2acc515c84eb345f1bf9d7ba4b1faa37
+  - enabled: 1
+    path: Assets/Scenes/IntroGame.unity
+    guid: aac03556f3d7944f3a0d06f356217aac
   m_configObjects: {}

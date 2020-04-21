@@ -69,7 +69,7 @@ public static class SaveData {
 
     public static bool HasSaveGame(string targetDirectory) {
         string[] fileEntries = Directory.GetFiles(targetDirectory);
-        if (fileEntries.Length > 0) {
+        if (fileEntries.Length > 1) {
             return true;
         }
 

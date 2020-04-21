@@ -22,6 +22,8 @@ public class InfoPlayer : MonoBehaviour {
     }
 
     public void Select() {
+        //Debug.Log(Session);
+        Session.Player = player;
         SceneManager.LoadScene(EnumScenes.Labirinto_1.ToString());
     }
 

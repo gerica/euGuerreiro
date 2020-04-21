@@ -20,15 +20,12 @@ public class EssencialLoader : MonoBehaviour {
 
         }
         if (PlayerController.Instance == null) {
-            PlayerData playerData = SaveData.LoadPlayerByName("Rogerio");
+            //PlayerData playerData = SaveData.LoadPlayerByName(Session.Player.NamePlayer);
+            PlayerData playerData = SaveData.LoadPlayerByName("Lais");
             PlayerController clone = Instantiate(player).GetComponent<PlayerController>();
             clone.PlayerData = playerData;
             PlayerController.Instance = clone;
         }
     }
 
-    // Update is called once per frame
-    void Update() {
-
-    }
 }

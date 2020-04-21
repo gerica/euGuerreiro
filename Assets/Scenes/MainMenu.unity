@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 75965425}
   - component: {fileID: 75965429}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: canvaMainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1525,6 +1525,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: panelCreatePlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 7004833143985124632, guid: caa45911de6a244d49ff55aed583b56e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7004833143985124633, guid: caa45911de6a244d49ff55aed583b56e,
         type: 3}

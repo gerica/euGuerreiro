@@ -23,7 +23,7 @@ public class HelpAdvantage : HelpGUI {
         foreach (var item in LoadDataFile.listAdvantage) {
             bool flag = false;
             foreach (var advPlay in player.Advantages) {
-                if (advPlay == item.Id) {
+                if (advPlay.Id == item.Id) {
                     flag = true;
                     break;
                 }
@@ -56,18 +56,15 @@ public class HelpAdvantage : HelpGUI {
             Destroy(item.gameObject);
         }
 
-        foreach (var idAdv in player.Advantages) {
-            foreach (var adv in LoadDataFile.listAdvantage) {
-                if (idAdv == adv.Id) {
-                    CreateAdvSelected(adv, listAdvantageSelected, advSelectedPrefab);
-                }
-            }
+        foreach (var adv in player.Advantages) {
+            CreateAdvSelected(adv, listAdvantageSelected, advSelectedPrefab);
         }
     }
 
     public void AddAdvantage(int id) {
-        player.AddAdvantage(id);
         DisadvantageAdvantage adv = FindByAdvId(id);
+        player.Advantages.Add(adv);
+
         if (adv != null) {
             UpdatePointToSpend(-adv.PointInit);
         }
@@ -75,8 +72,9 @@ public class HelpAdvantage : HelpGUI {
     }
 
     public void RemoveAdvantage(int id) {
-        player.RemoveAdvantage(id);
         DisadvantageAdvantage adv = FindByAdvId(id);
+        player.Advantages.Remove(adv);
+
         if (adv != null) {
             UpdatePointToSpend(adv.PointInit);
         }

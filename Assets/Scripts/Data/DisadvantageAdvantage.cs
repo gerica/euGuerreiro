@@ -1,4 +1,6 @@
 ﻿using System;
+
+[Serializable]
 public class DisadvantageAdvantage {
     private int id;
     private string name;
