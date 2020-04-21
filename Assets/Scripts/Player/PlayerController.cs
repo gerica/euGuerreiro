@@ -9,15 +9,19 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] Animator myAnimator;
     [SerializeField] float moveSpeed = 10.0f;
     [SerializeField] string areaTransitionName;
+
+    private PlayerData playerData;
     private Vector3 bottomLeftLimit;
     private Vector3 topRightLimit;
 
     public string AreaTransitionName { get => areaTransitionName; set => areaTransitionName = value; }
     public static PlayerController Instance { get; set; }
     public bool CanMove { get; set; } = true;
+    public PlayerData PlayerData { get => playerData; set => playerData = value; }
 
     private void Start() {
         Debug.Log("chamou player controller");
+        Debug.Log(playerData);
         // para ter somente um personagem, uma instancia mesmo após trocar de cena
         if (Instance == null) {
             Instance = this;

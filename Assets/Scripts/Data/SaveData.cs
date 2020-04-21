@@ -22,6 +22,7 @@ public static class SaveData {
         return false;
 
     }
+
     public static List<PlayerData> LoadPlayers() {
         if (Directory.Exists(path)) {
             // This path is a directory
@@ -29,6 +30,10 @@ public static class SaveData {
         }
         return null;
 
+    }
+
+    public static PlayerData LoadPlayerByName(string namePlayer) {
+        return ProcessFile(path + "/" + namePlayer);
     }
 
     public static PlayerData ProcessFile(string path) {

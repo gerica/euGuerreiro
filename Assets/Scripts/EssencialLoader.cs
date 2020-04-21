@@ -20,7 +20,9 @@ public class EssencialLoader : MonoBehaviour {
 
         }
         if (PlayerController.Instance == null) {
+            PlayerData playerData = SaveData.LoadPlayerByName("Rogerio");
             PlayerController clone = Instantiate(player).GetComponent<PlayerController>();
+            clone.PlayerData = playerData;
             PlayerController.Instance = clone;
         }
     }
