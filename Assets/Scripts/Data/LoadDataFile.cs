@@ -56,10 +56,10 @@ public static class LoadDataFile {
         }
     }
 
-    public static List<HistoryData> LoadHistories() {
+    public static List<HistoryData> LoadHistories(string nameChapter) {
         List<HistoryData> datas = new List<HistoryData>();
         HistoryData data;
-        string allText = System.IO.File.ReadAllText(@"./Assets/Scripts/Files/history-intro.txt");
+        string allText = System.IO.File.ReadAllText(@"./Assets/Scripts/Files/" + nameChapter + ".txt");
         string[] allTextSplit = allText.Split('\n');
         foreach (var line in allTextSplit) {
             data = new HistoryData(line);

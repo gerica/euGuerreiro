@@ -14,6 +14,7 @@ public class PlayerData {
     private List<DisadvantageAdvantage> advantages = new List<DisadvantageAdvantage>();
     private List<DisadvantageAdvantage> disadvantages = new List<DisadvantageAdvantage>();
     private List<Skill> skills = new List<Skill>();
+    private int historyProgress;
 
     public string NamePlayer { get => namePlayer; set => namePlayer = value; }
     public int St { get => st; set => st = value; }
@@ -24,6 +25,7 @@ public class PlayerData {
     public List<DisadvantageAdvantage> Disadvantages { get => disadvantages; set => disadvantages = value; }
     public List<Skill> Skills { get => skills; set => skills = value; }
     public EnumSex Sex { get => sex; set => sex = value; }
+    public int HistoryProgress { get => historyProgress; set => historyProgress = value; }
 
     public override string ToString() {
         return NamePlayer + St + Dx + Iq + Ht + Sex;
