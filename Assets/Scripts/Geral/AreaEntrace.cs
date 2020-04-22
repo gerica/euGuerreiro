@@ -14,7 +14,7 @@ public class AreaEntrace : MonoBehaviour {
             //Debug.Log(PlayerController.instance.transform.position);
         }
 
-        UiFade.instance.FadeFromBlack();
+        UiFade.Instance.FadeFromBlack();
     }
 
     // Update is called once per frame

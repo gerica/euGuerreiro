@@ -34,7 +34,7 @@ public class AreaExit : MonoBehaviour {
             //SceneManager.LoadScene(areaToLoad);
             
             shouldLoadAfterFade = true;
-            UiFade.instance.FadeToBlack();
+            UiFade.Instance.FadeToBlack();
             PlayerController.Instance.AreaTransitionName = areaTransitionName;
         }
 

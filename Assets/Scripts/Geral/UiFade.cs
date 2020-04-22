@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UiFade : MonoBehaviour {
 
-    public static UiFade instance;
+    public static UiFade Instance { get; set; }
 
     public Image fadeScreen;
     public float fadeSpeed = 1f;
@@ -15,7 +15,7 @@ public class UiFade : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        instance = this;
+        Instance = this;
         DontDestroyOnLoad(gameObject);
     }
 

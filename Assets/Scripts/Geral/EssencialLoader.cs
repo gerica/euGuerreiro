@@ -15,8 +15,8 @@ public class EssencialLoader : MonoBehaviour {
             GameManager.Instance = Instantiate(gameManager).GetComponent<GameManager>();
         }
 
-        if (UiFade.instance == null) {
-            UiFade.instance = Instantiate(UIScreen).GetComponent<UiFade>();
+        if (UiFade.Instance == null) {
+            UiFade.Instance = Instantiate(UIScreen).GetComponent<UiFade>();
 
         }
         if (PlayerController.Instance == null) {

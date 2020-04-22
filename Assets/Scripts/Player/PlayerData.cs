@@ -10,11 +10,13 @@ public class PlayerData {
     private int dx;
     private int iq;
     private int ht;
+    private float speedBasic;
     private EnumSex sex;
     private List<DisadvantageAdvantage> advantages = new List<DisadvantageAdvantage>();
     private List<DisadvantageAdvantage> disadvantages = new List<DisadvantageAdvantage>();
     private List<Skill> skills = new List<Skill>();
     private int historyProgress;
+    private bool isEnemy;
 
     public string NamePlayer { get => namePlayer; set => namePlayer = value; }
     public int St { get => st; set => st = value; }
@@ -26,6 +28,16 @@ public class PlayerData {
     public List<Skill> Skills { get => skills; set => skills = value; }
     public EnumSex Sex { get => sex; set => sex = value; }
     public int HistoryProgress { get => historyProgress; set => historyProgress = value; }
+    public float SpeedBasic {
+        get {
+            // Para calcular a Velocidade Básica de um personagem, some seus valores de HT e DX e divida o resultado por 4.Não ar­
+            //redonde esse valor. 5,25 é melhor que 5!
+            return (ht + dx) / 4;
+        }
+        set => speedBasic = value;
+    }
+
+    public bool IsEnemy { get => isEnemy; set => isEnemy = value; }
 
     public override string ToString() {
         return NamePlayer + St + Dx + Iq + Ht + Sex;
