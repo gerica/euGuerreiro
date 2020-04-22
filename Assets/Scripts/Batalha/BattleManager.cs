@@ -9,6 +9,10 @@ public class BattleManager : MonoBehaviour {
     [SerializeField] GameObject targetPanel;
     [SerializeField] GameObject dicePanel;
     [SerializeField] GameObject playDice;
+    [SerializeField] GameObject[] playersPositions;
+    [SerializeField] GameObject[] enemiPositions;
+    [SerializeField] BattlePlayer maleBattlePlayerPrefab;
+    [SerializeField] BattlePlayer femaleBattlePlayerPrefab;
     [SerializeField] Text[] dices;
     [SerializeField] float speedDice = 0.1f;
 
@@ -34,14 +38,31 @@ public class BattleManager : MonoBehaviour {
     }
 
     private void BattleStart() {
-        Camera.main.orthographicSize = 6.0f;
+        //Camera.main.orthographicSize = 6.0f;
         transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, transform.position.z);
         GameManager.Instance.BattleActive = true;
         battleScene.SetActive(true);
+
+        int randomPosition = Random.Range(0, playersPositions.Length);
+        GameObject position = playersPositions[randomPosition];
+        BattlePlayer playerBattle;
+        if (PlayerController.Instance.PlayerData.Sex == EnumSex.M) {
+            playerBattle = Instantiate(maleBattlePlayerPrefab, position.transform.position, position.transform.rotation);
+        } else {
+            playerBattle = Instantiate(femaleBattlePlayerPrefab, position.transform.position, position.transform.rotation);
+        }
+        playerBattle.transform.SetParent(playersPositions[randomPosition].transform); // para adicionar no componente pai
+        playerBattle.transform.localScale = new Vector3(1, 1, 0);
     }
 
     private void BattleEnd() {
-        Camera.main.orthographicSize = 12.0f;
+        foreach (GameObject pos in playersPositions) {
+            foreach (BattlePlayer battle in pos.GetComponentsInChildren<BattlePlayer>()) {
+                Destroy(battle.gameObject);
+            }
+        }
+
+        //Camera.main.orthographicSize = 12.0f;
         GameManager.Instance.BattleActive = false;
         battleScene.SetActive(false);
         targetPanel.SetActive(false);
