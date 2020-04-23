@@ -304,7 +304,9 @@ public class BattleManager : MonoBehaviour {
     }
 
     private void UpdatePanelSkillSelected() {
-        skillSelectedText.text = skillSelected.Name;
+        BattlePlayer player = orderAction.GetByIndex(currentTurn) as BattlePlayer;
+        string nivel = "(" + skillSelected.Type + "-" + player.Player.GetNivelSkill(skillSelected).ToString() + ")";
+        skillSelectedText.text = skillSelected.Name + nivel;
     }
 
     private void CheckSuccess() {
@@ -325,11 +327,18 @@ public class BattleManager : MonoBehaviour {
             yield return new WaitForSeconds(0.5f);
             canAttack = success;
             MoveToPositionAttack();
+            ResetDices();
         } else {
             txtInfo.text = "Falha";
             yield return new WaitForSeconds(0.8f);
         }
 
+    }
+
+    private void ResetDices() {
+        dices[0].text = "d6";
+        dices[1].text = "d6";
+        dices[2].text = "d6";
     }
 
     public void MoveToPositionAttack() {

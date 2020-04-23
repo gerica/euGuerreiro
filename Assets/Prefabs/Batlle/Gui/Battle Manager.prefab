@@ -518,7 +518,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sucesso
+  m_Text: 
 --- !u!1 &3549862679294416432
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,6 +946,8 @@ MonoBehaviour:
   infoPanel: {fileID: 8178027571884548050}
   txtInfo: {fileID: 6537967759422214061}
   positionAttack: {fileID: 2093751713}
+  damageNumber: {fileID: 8322074424457094028, guid: 1e970fccbf67248678a4103c8523b8f2,
+    type: 3}
   speedDice: 0.25
 --- !u!1 &3549862679478638890
 GameObject:
@@ -2341,7 +2343,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: Espada de duas maos
+  m_Text: dsafasdf
 --- !u!114 &3611254371124278052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2445,8 +2447,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -124, y: -320.99}
-  m_SizeDelta: {x: -1673.4368, y: -921.67084}
+  m_AnchoredPosition: {x: -124, y: -320.2}
+  m_SizeDelta: {x: -1673.4368, y: -920.10095}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6225779376819324298
 CanvasRenderer:
