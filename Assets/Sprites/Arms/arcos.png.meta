@@ -1,0 +1,2036 @@
+fileFormatVersion: 2
+guid: 84e4c9c6652d14832829eb7ed06a48b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5024048891679254151
+    second: arcos_0
+  - first:
+      213: 6795899671459207386
+    second: arcos_1
+  - first:
+      213: -5859240682113505458
+    second: arcos_2
+  - first:
+      213: -1948402248054842455
+    second: arcos_3
+  - first:
+      213: 6308251618210943611
+    second: arcos_4
+  - first:
+      213: -6938449547439432133
+    second: arcos_5
+  - first:
+      213: 3325346537625721278
+    second: arcos_6
+  - first:
+      213: -3250665333584751827
+    second: arcos_7
+  - first:
+      213: 7328389055380791781
+    second: arcos_8
+  - first:
+      213: -3562705070583326885
+    second: arcos_9
+  - first:
+      213: 7954809079903616915
+    second: arcos_10
+  - first:
+      213: 5839887009672364136
+    second: arcos_11
+  - first:
+      213: -9006184647870291417
+    second: arcos_12
+  - first:
+      213: 2234426960235002338
+    second: arcos_13
+  - first:
+      213: 825658496219324246
+    second: arcos_14
+  - first:
+      213: 7634199739052539576
+    second: arcos_15
+  - first:
+      213: -6414821298040377692
+    second: arcos_16
+  - first:
+      213: 4213312666775901034
+    second: arcos_17
+  - first:
+      213: 5747255451122192679
+    second: arcos_18
+  - first:
+      213: 8434427855991087607
+    second: arcos_19
+  - first:
+      213: 7645324473759053904
+    second: arcos_20
+  - first:
+      213: -6159319646180810518
+    second: arcos_21
+  - first:
+      213: -1900787439127124833
+    second: arcos_22
+  - first:
+      213: 7934153081151774452
+    second: arcos_23
+  - first:
+      213: 2715624907718124460
+    second: arcos_24
+  - first:
+      213: 4692417311046212903
+    second: arcos_25
+  - first:
+      213: 6442128329041971598
+    second: arcos_26
+  - first:
+      213: 2991095054281428046
+    second: arcos_27
+  - first:
+      213: -6330028859113810082
+    second: arcos_28
+  - first:
+      213: 5044884967257881374
+    second: arcos_29
+  - first:
+      213: 6935985003483876499
+    second: arcos_30
+  - first:
+      213: -3816100064847132790
+    second: arcos_31
+  - first:
+      213: -5668848884330620847
+    second: arcos_32
+  - first:
+      213: -3453401785098041421
+    second: arcos_33
+  - first:
+      213: -4538653719715775644
+    second: arcos_34
+  - first:
+      213: 1034380736849460981
+    second: arcos_35
+  - first:
+      213: 6581783159713029271
+    second: arcos_36
+  - first:
+      213: 1481844127581144153
+    second: arcos_37
+  - first:
+      213: 3596907316560044074
+    second: arcos_38
+  - first:
+      213: 6227000527062099161
+    second: arcos_39
+  - first:
+      213: -9170644178137400182
+    second: arcos_40
+  - first:
+      213: -9060813364678862402
+    second: arcos_41
+  - first:
+      213: 6390050984715993266
+    second: arcos_42
+  - first:
+      213: -5540708360498825354
+    second: arcos_43
+  - first:
+      213: -2690979460768718083
+    second: arcos_44
+  - first:
+      213: -513855754080778594
+    second: arcos_45
+  - first:
+      213: -7935705862787963010
+    second: arcos_46
+  - first:
+      213: 723930262645909529
+    second: arcos_47
+  - first:
+      213: -8725698229109901880
+    second: arcos_48
+  - first:
+      213: -5369419807281053817
+    second: arcos_49
+  - first:
+      213: -5929891566784848705
+    second: arcos_50
+  - first:
+      213: 3128933556949487802
+    second: arcos_51
+  - first:
+      213: -7697804020913017020
+    second: arcos_52
+  - first:
+      213: 6337915232982313479
+    second: arcos_53
+  - first:
+      213: 1540088473189116585
+    second: arcos_54
+  - first:
+      213: 6555052295077672196
+    second: arcos_55
+  - first:
+      213: -2528345293907951409
+    second: arcos_56
+  - first:
+      213: -4218154466203708211
+    second: arcos_57
+  - first:
+      213: 2840711990394558358
+    second: arcos_58
+  - first:
+      213: 5196335011257311140
+    second: arcos_59
+  - first:
+      213: 3899501762369689826
+    second: arcos_60
+  - first:
+      213: 7268479873830165590
+    second: arcos_61
+  - first:
+      213: -5881930138715824248
+    second: arcos_62
+  - first:
+      213: -5683072641543905557
+    second: arcos_63
+  - first:
+      213: 2234616126363126256
+    second: arcos_64
+  - first:
+      213: -1355578676084632549
+    second: arcos_65
+  - first:
+      213: -1230212396911732116
+    second: arcos_66
+  - first:
+      213: 7941707612385163113
+    second: arcos_67
+  - first:
+      213: 1881580040993421437
+    second: arcos_68
+  - first:
+      213: 9083284035875914677
+    second: arcos_69
+  - first:
+      213: 851006466469321780
+    second: arcos_70
+  - first:
+      213: -1135762999258789471
+    second: arcos_71
+  - first:
+      213: -5486216670691790738
+    second: arcos_72
+  - first:
+      213: 2851750668027286307
+    second: arcos_73
+  - first:
+      213: -9091815890325018347
+    second: arcos_74
+  - first:
+      213: -9080648421412247044
+    second: arcos_75
+  - first:
+      213: -7771586121550643542
+    second: arcos_76
+  - first:
+      213: -4216265518306311280
+    second: arcos_77
+  - first:
+      213: 3250997811682794614
+    second: arcos_78
+  - first:
+      213: -6153189060491547341
+    second: arcos_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arcos_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979534dc62ef64ab0800000000000000
+      internalID: -5024048891679254151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad81586beb2ef4e50800000000000000
+      internalID: 6795899671459207386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e476b19a4abcfaea0800000000000000
+      internalID: -5859240682113505458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab5e1d7a72e5f4e0800000000000000
+      internalID: -1948402248054842455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b721f399c696b8750800000000000000
+      internalID: 6308251618210943611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e17e8e5eca5bf90800000000000000
+      internalID: -6938449547439432133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9914abe01062e20800000000000000
+      internalID: 3325346537625721278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2311041a1153e2d0800000000000000
+      internalID: -3250665333584751827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e125d5b40ba3b560800000000000000
+      internalID: 7328389055380791781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57d5644d9abe8ec0800000000000000
+      internalID: -3562705070583326885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ff4b736b8256e60800000000000000
+      internalID: 7954809079903616915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86080f35b427b0150800000000000000
+      internalID: 5839887009672364136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7226d1297ca930380800000000000000
+      internalID: -9006184647870291417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9fc595b77420f10800000000000000
+      internalID: 2234426960235002338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f9fec1704557b00800000000000000
+      internalID: 825658496219324246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 96.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be3b96073022f960800000000000000
+      internalID: 7634199739052539576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae61b0440af9f6a0800000000000000
+      internalID: -6414821298040377692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63d4de1c81b87a30800000000000000
+      internalID: 4213312666775901034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721d09de16a52cf40800000000000000
+      internalID: 5747255451122192679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f12200927b1d0570800000000000000
+      internalID: 8434427855991087607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058320b2a16a91a60800000000000000
+      internalID: 7645324473759053904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_21
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0ee4f4a63b58aa0800000000000000
+      internalID: -6159319646180810518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94ad4915eb0f95e0800000000000000
+      internalID: -1900787439127124833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_23
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe5f9bb036cb1e60800000000000000
+      internalID: 7934153081151774452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3edbf2776dfa520800000000000000
+      internalID: 2715624907718124460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_25
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d9dc2dea0de1140800000000000000
+      internalID: 4692417311046212903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89070a5599076950800000000000000
+      internalID: 6442128329041971598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_27
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c4fd7ba11828920800000000000000
+      internalID: 2991095054281428046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57dc826a483728a0800000000000000
+      internalID: -6330028859113810082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_29
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b3d161628030640800000000000000
+      internalID: 5044884967257881374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_30
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cc71cbc91914060800000000000000
+      internalID: 6935985003483876499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_31
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 72.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a870177a53d7a0bc0800000000000000
+      internalID: -3816100064847132790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1589a1c79f33451b0800000000000000
+      internalID: -5668848884330620847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_33
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b708849f5d0310d0800000000000000
+      internalID: -3453401785098041421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bf5dd1d767301c0800000000000000
+      internalID: -4538653719715775644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_35
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe3b6ebccbda5e00800000000000000
+      internalID: 1034380736849460981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cd75779e0375b50800000000000000
+      internalID: 6581783159713029271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_37
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95409f40261909410800000000000000
+      internalID: 1481844127581144153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_38
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20a09da528cae130800000000000000
+      internalID: 3596907316560044074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_39
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4e4bfbcffba6650800000000000000
+      internalID: 6227000527062099161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cbd9845b35bb080800000000000000
+      internalID: -9170644178137400182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_41
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb954364046814280800000000000000
+      internalID: -9060813364678862402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_42
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0c1a0c3850ea850800000000000000
+      internalID: 6390050984715993266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_43
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6773e602a137b13b0800000000000000
+      internalID: -5540708360498825354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df222071078b7aad0800000000000000
+      internalID: -2690979460768718083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_45
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9689380aea6ed8f0800000000000000
+      internalID: -513855754080778594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_46
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77e98e1095bed190800000000000000
+      internalID: -7935705862787963010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_47
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 48.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9182a230dbaeb0a00800000000000000
+      internalID: 723930262645909529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c536acf0b718e680800000000000000
+      internalID: -8725698229109901880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_49
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ff019322dfb75b0800000000000000
+      internalID: -5369419807281053817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_50
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc5435b90bc4bda0800000000000000
+      internalID: -5929891566784848705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_51
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab016c30e743c6b20800000000000000
+      internalID: 3128933556949487802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fe7e61708eb2590800000000000000
+      internalID: -7697804020913017020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_53
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70aa27e135cc4f750800000000000000
+      internalID: 6337915232982313479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_54
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa6c1f7e4e7f5510800000000000000
+      internalID: 1540088473189116585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_55
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405b63c055938fa50800000000000000
+      internalID: 6555052295077672196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc00617d95389ecd0800000000000000
+      internalID: -2528345293907951409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_57
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4533a9cda1675c0800000000000000
+      internalID: -4218154466203708211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_58
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69719a8218c3c6720800000000000000
+      internalID: 2840711990394558358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_59
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afdaef49271d1840800000000000000
+      internalID: 5196335011257311140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_60
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e81e034130dd1630800000000000000
+      internalID: 3899501762369689826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_61
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c19b86fe3ded460800000000000000
+      internalID: 7268479873830165590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_62
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fdd20e3bf2f5ea0800000000000000
+      internalID: -5881930138715824248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_63
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 24.8
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beed800fa8ba121b0800000000000000
+      internalID: -5683072641543905557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9cb350783f20f10800000000000000
+      internalID: 2234616126363126256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_65
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1491e25064003de0800000000000000
+      internalID: -1355578676084632549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_66
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a5bcbc7586deee0800000000000000
+      internalID: -1230212396911732116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_67
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967bb3a1ffc963e60800000000000000
+      internalID: 7941707612385163113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78b0e70417bc1a10800000000000000
+      internalID: 1881580040993421437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_69
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b34c5094be4e0e70800000000000000
+      internalID: 9083284035875914677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_70
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cd6775fd16fcb00800000000000000
+      internalID: 851006466469321780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_71
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9c528d195fc30f0800000000000000
+      internalID: -1135762999258789471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60f696510b0dd3b0800000000000000
+      internalID: -5486216670691790738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_73
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323dfb39f14739720800000000000000
+      internalID: 2851750668027286307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_74
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519ece54e9163d180800000000000000
+      internalID: -9091815890325018347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_75
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9e28f3f5e0bf180800000000000000
+      internalID: -9080648421412247044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_76
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae3e9b1997c52490800000000000000
+      internalID: -7771586121550643542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_77
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093cf9e89d0dc75c0800000000000000
+      internalID: -4216265518306311280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_78
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cdce2094ddd1d20800000000000000
+      internalID: 3250997811682794614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcos_79
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0.79999924
+        width: 24
+        height: 24.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33de495862b7b9aa0800000000000000
+      internalID: -6153189060491547341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

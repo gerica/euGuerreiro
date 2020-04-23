@@ -15,7 +15,6 @@ public class SelectTarget : MonoBehaviour {
     }
 
     public void OnSelectTarget() {
-        Debug.Log(Target);
         BattleManager.Instance.SelectTarget(Target);
     }
 }

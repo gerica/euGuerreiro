@@ -20,15 +20,23 @@ public class BattleManager : MonoBehaviour {
     [SerializeField] SelectTarget namesTargetPrefab;
     [SerializeField] GameObject currentTurnPrefab;
     [SerializeField] Text skillSelectedText;
+    //[SerializeField] Text[] arraySuccessError;
+    [SerializeField] GameObject infoPanel;
+    [SerializeField] Text txtInfo;
+    [SerializeField] GameObject positionAttack;
+    [SerializeField] DamageNumber damageNumber;
 
     [SerializeField] float speedDice = 0.1f;
-
     private int typeDice = 7;
     private SortedList orderAction;
     private int currentTurn = -1;
     private int sizePlayerBattle = 0;
     private int sumDices = 0;
     private Skill skillSelected;
+    private bool canAttack;
+    private Vector3 positionOrigin;
+    private int dicesActives = 1;
+    private BattlePlayer targetPlayer;
 
     public static BattleManager Instance { get; set; }
     public int TypeDice { get => typeDice; set => typeDice = value; }
@@ -40,6 +48,8 @@ public class BattleManager : MonoBehaviour {
         targetPanel.SetActive(false);
         dicePanel.SetActive(false);
         playDice.SetActive(false);
+        infoPanel.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -50,13 +60,15 @@ public class BattleManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Y)) {
             BattleEnd();
         }
-    }
 
+        //if (canAttack) {
+        //    StartCoroutine(MoveToPositionAttack());
+        //}
+    }
     public void BattleStart(BattleEnemy enemy) {
         //Camera.main.orthographicSize = 6.0f;
         GameManager.Instance.BattleActive = true;
-
-        battleScene.SetActive(false); // todo remover, pois a cena por pad'rao estara desabilitada
+        battleScene.SetActive(false); // todo remover, pois a cena por padrão estara desabilitada
         StartCoroutine(StartBattleCoroutine(enemy));
     }
 
@@ -111,8 +123,12 @@ public class BattleManager : MonoBehaviour {
             BattlePlayer enemyPrefab = enemy.EnemiesPrefab[i];
             int randomPosition = UnityEngine.Random.Range(0, enemiesPositions.Length);
             GameObject position = enemiesPositions[randomPosition];
+
             BattlePlayer playerBattle;
             playerBattle = Instantiate(enemyPrefab, position.transform.position, position.transform.rotation);
+
+            //Vector3 pos = position.transform.po
+            //playerBattle.transform.position = position.transform.position;
             PlayerData enemyData = EnemyFactory.crateEnemy(enemy.Enemies[i]);
             playerBattle.Player = enemyData;
             playerBattle.transform.SetParent(enemiesPositions[randomPosition].transform); // para adicionar no componente pai
@@ -121,7 +137,24 @@ public class BattleManager : MonoBehaviour {
         }
     }
 
+    private void InitTurn() {
+        // battleScene.SetActive(false);
+        // actionPanel.SetActive(false);
+        targetPanel.SetActive(false);
+        dicePanel.SetActive(false);
+        playDice.SetActive(false);
+        infoPanel.SetActive(false);
+
+        skillSelectedText.text = "";
+        sumDices = 0;
+        skillSelected = null;
+        canAttack = false;
+        positionOrigin = new Vector3(); ;
+        dicesActives = 1;
+    }
+
     public void NextTurn() {
+        InitTurn();
         currentTurn++;
         if (currentTurn >= sizePlayerBattle) {
             currentTurn = 0;
@@ -140,7 +173,7 @@ public class BattleManager : MonoBehaviour {
             }
 
         } else {
-
+            Debug.Log("enimigo atacar");
         }
         //TurnWaiting = true;
         //UpdateBattle();
@@ -184,6 +217,7 @@ public class BattleManager : MonoBehaviour {
         targetPanel.SetActive(false);
         dicePanel.SetActive(false);
         playDice.SetActive(false);
+        infoPanel.SetActive(false);
         UiFade.Instance.FadeFromBlack();
     }
 
@@ -207,8 +241,11 @@ public class BattleManager : MonoBehaviour {
 
     public void SelectTarget(BattlePlayer target) {
         Debug.Log("Atacar o " + target.Player.NamePlayer);
+        Debug.Log("Position " + target.transform.position);
+        targetPlayer = target;
         dicePanel.SetActive(true);
         playDice.SetActive(true);
+        infoPanel.SetActive(true);
     }
 
     public void PlayDice() {
@@ -247,8 +284,23 @@ public class BattleManager : MonoBehaviour {
         dices[2].text = dice3.ToString();
 
         sumDices = dice1 + dice2 + dice3;
-        CheckSuccess();
+        if (!canAttack) {
+            dicesActives = 1;
+            CheckSuccess();
+        } else {
+            CheckDamage(dice1, dice2, dice3);
+        }
 
+    }
+
+    private void CheckDamage(int dice1, int dice2, int dice3) {
+        int sumDices = 0;
+        if (dicesActives == 1) {
+            sumDices = dice1;
+        } else if (dicesActives == 2) {
+            sumDices = dice1 + dice2;
+        }
+        StartCoroutine(Attack(sumDices));
     }
 
     private void UpdatePanelSkillSelected() {
@@ -259,15 +311,62 @@ public class BattleManager : MonoBehaviour {
         BattlePlayer player = orderAction.GetByIndex(currentTurn) as BattlePlayer;
         foreach (Skill skill in player.Player.Skills) {
             if (skill == skillSelected) {
-                Debug.Log(sumDices);
-                Debug.Log(player.Player.GetNivelSkill(skillSelected));
-                if (sumDices <= player.Player.GetNivelSkill(skillSelected)) {
-                    Debug.Log("Acertou");
-                } else {
-                    Debug.Log("Errou");
-                }
+                bool success = sumDices <= player.Player.GetNivelSkill(skillSelected);
+                StartCoroutine(UpdatePanelInfoActionCoroutine(success));
                 break;
             }
         }
+    }
+
+    private IEnumerator UpdatePanelInfoActionCoroutine(bool success) {
+        //yield return new WaitForSeconds(0.5f);
+        if (success) {
+            txtInfo.text = "Sucesso";
+            yield return new WaitForSeconds(0.5f);
+            canAttack = success;
+            MoveToPositionAttack();
+        } else {
+            txtInfo.text = "Falha";
+            yield return new WaitForSeconds(0.8f);
+        }
+
+    }
+
+    public void MoveToPositionAttack() {
+        BattlePlayer player = orderAction.GetByIndex(currentTurn) as BattlePlayer;
+        positionOrigin = player.transform.position;
+        player.transform.position = new Vector3(positionAttack.transform.position.x, positionAttack.transform.position.y, 0);
+        //arraySuccessError[0].gameObject.SetActive(true);
+        txtInfo.text = "Calcular dano";
+        EnumDamange damage = TabelaDano.GetDemangeByST(player.Player.St);
+
+        if (damage.ToString().Contains("d1")) {
+            dices[1].gameObject.SetActive(false);
+            dices[2].gameObject.SetActive(false);
+        }
+        if (damage.ToString().Contains("d2")) {
+            dices[2].gameObject.SetActive(false);
+            dicesActives = 2;
+        }
+        //StartCoroutine(Attack(positionOrigin));
+    }
+
+    public void MoveToPositionDefault() {
+        BattlePlayer player = orderAction.GetByIndex(currentTurn) as BattlePlayer;
+        player.transform.position = positionOrigin;
+    }
+
+    public IEnumerator Attack(int damage) {
+        BattlePlayer player = orderAction.GetByIndex(currentTurn) as BattlePlayer;
+        Vector3 posArm = new Vector3(player.transform.position.x - 1, player.transform.position.y, player.transform.position.z);
+        GameObject arm = Instantiate(player.GetCurrentArmPrefab(skillSelected), posArm, player.transform.rotation);
+        yield return new WaitForSeconds(1f);
+
+        canAttack = false;
+        MoveToPositionDefault();
+        Destroy(arm.gameObject);
+
+        Instantiate(damageNumber, targetPlayer.transform.position, targetPlayer.transform.rotation).SetDamage(damage);
+        NextTurn();
     }
 }
