@@ -5,7 +5,6 @@ using UnityEngine;
 public class AnimationArm : MonoBehaviour {
 
     public void AutoDestroy() {
-        Debug.Log("Chamou");
         Destroy(this.gameObject);
     }
 

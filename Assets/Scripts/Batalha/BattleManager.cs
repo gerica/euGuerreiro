@@ -36,7 +36,8 @@ public class BattleManager : MonoBehaviour {
     private bool canAttack;
     private Vector3 positionOrigin;
     private int dicesActives = 1;
-    private BattlePlayer targetPlayer;
+    private BattlePlayer currentPlayer;
+    private BattlePlayer currentTargetPlayer;
     private bool canPlayDices = true;
 
     public static BattleManager Instance { get; set; }
@@ -146,6 +147,7 @@ public class BattleManager : MonoBehaviour {
         playDice.SetActive(false);
         infoPanel.SetActive(false);
 
+        txtInfo.text = "";
         skillSelectedText.text = "";
         sumDices = 0;
         skillSelected = null;
@@ -153,6 +155,9 @@ public class BattleManager : MonoBehaviour {
         positionOrigin = new Vector3(); ;
         dicesActives = 1;
         canPlayDices = true;
+        currentPlayer = null;
+        currentTargetPlayer = null;
+        ResetDices();
     }
 
     public void NextTurn() {
@@ -161,88 +166,110 @@ public class BattleManager : MonoBehaviour {
         if (currentTurn >= sizePlayerBattle) {
             currentTurn = 0;
         }
-        BattlePlayer player = orderAction.GetByIndex(currentTurn) as BattlePlayer;
-        if (!player.Player.IsEnemy) {
-            foreach (GameObject pos in playersPositions) {
-                if (pos.GetComponentsInChildren<BattlePlayer>().Length > 0) {
-                    ActiveActionPanel(player);
-                    Vector3 vector3 = new Vector3(0.203f, 0.82f, 0);
-                    GameObject turnObject = Instantiate(currentTurnPrefab, pos.transform.position - vector3, pos.transform.rotation);
-                    turnObject.transform.SetParent(pos.transform); // para adicionar no componente pai
-                    turnObject.transform.localScale = new Vector3(1, 1, 0);
-                    break;
-                }
-            }
+        //currentTurn++; // TODO para o inimgo ser o primeiro a jogar
+        currentPlayer = orderAction.GetByIndex(currentTurn) as BattlePlayer;
 
-        } else {
-            Debug.Log("enimigo atacar");
-        }
+        CreateShadowCurrentTurn();
+        ActiveActionPanel();
+        //if (!currentPlay.Player.IsEnemy) {
+
+        //} else {
+        //    Debug.Log("enimigo atacar");
+        //    CreateShadowCurrentTurn(enemiesPositions);
+        //    ActiveActionPanel();
+        //}
         //TurnWaiting = true;
         //UpdateBattle();
         //UpdateUIState();
     }
 
-    public void ActiveActionPanel(BattlePlayer currentPlayer) {
+    private void CreateShadowCurrentTurn() {
+        GameObject[] listPostPlayer;
+        if (currentPlayer.Player.IsEnemy) {
+            listPostPlayer = enemiesPositions;
+        } else {
+            listPostPlayer = playersPositions;
+        }
+
+        foreach (GameObject pos in listPostPlayer) {
+            if (pos.GetComponentsInChildren<BattlePlayer>().Length > 0) {
+                Vector3 vector3 = new Vector3(0.203f, 0.82f, 0);
+                GameObject turnObject = Instantiate(currentTurnPrefab, pos.transform.position - vector3, pos.transform.rotation);
+                turnObject.transform.SetParent(pos.transform); // para adicionar no componente pai
+                turnObject.transform.localScale = new Vector3(1, 1, 0);
+                break;
+            }
+        }
+    }
+
+    public void ActiveActionPanel() {
         actionPanel.SetActive(true);
+
+        foreach (ActionSkillButton skillButton in actionPanel.GetComponentsInChildren<ActionSkillButton>()) {
+            Destroy(skillButton.gameObject);
+        }
+
         foreach (Skill skill in currentPlayer.Player.Skills) {
-            ActionSkillButton newObj = Instantiate(actionButtonsPrefab);
-            newObj.Skill = skill;
+            ActionSkillButton buttonSkillAction = Instantiate(actionButtonsPrefab);
+            buttonSkillAction.Skill = skill;
 
-            newObj.transform.SetParent(actionPanel.transform); // para adicionar no componente pai
-            newObj.transform.localScale = new Vector3(1, 1, 0);
-        }
-    }
+            buttonSkillAction.transform.SetParent(actionPanel.transform); // para adicionar no componente pai
+            buttonSkillAction.transform.localScale = new Vector3(1, 1, 0);
 
-    private void BattleEnd() {
-        StartCoroutine(BattleEndCoroutine());
-    }
-
-    private IEnumerator BattleEndCoroutine() {
-        UiFade.Instance.FadeToBlack();
-        yield return new WaitForSeconds(1f);
-        foreach (GameObject pos in playersPositions) {
-            foreach (BattlePlayer battle in pos.GetComponentsInChildren<BattlePlayer>()) {
-                Destroy(battle.gameObject);
+            if (currentPlayer.Player.IsEnemy) {
+                buttonSkillAction.GetComponentInChildren<Button>().interactable = false;
+                StartCoroutine(ActionAttackEnemyCoroutine());
             }
         }
-
-        foreach (GameObject pos in enemiesPositions) {
-            foreach (BattlePlayer battle in pos.GetComponentsInChildren<BattlePlayer>()) {
-                Destroy(battle.gameObject);
-            }
-        }
-
-        //Camera.main.orthographicSize = 12.0f;
-        GameManager.Instance.BattleActive = false;
-        actionPanel.SetActive(false);
-        battleScene.SetActive(false);
-        targetPanel.SetActive(false);
-        dicePanel.SetActive(false);
-        playDice.SetActive(false);
-        infoPanel.SetActive(false);
-        UiFade.Instance.FadeFromBlack();
     }
 
     public void ActionAttack(Skill skill) {
         skillSelected = skill;
-        UpdatePanelSkillSelected();
+        targetPanel.SetActive(true);
+
         foreach (SelectTarget exist in targetPanel.GetComponentsInChildren<SelectTarget>()) {
             Destroy(exist.gameObject);
         }
 
-        targetPanel.SetActive(true);
-        foreach (GameObject pos in enemiesPositions) {
+        List<SelectTarget> listTargetPlayer = new List<SelectTarget>(); ;
+
+        UpdatePanelSkillSelected();
+
+        GameObject[] listTargets;
+        if (currentPlayer.Player.IsEnemy) {
+            listTargets = playersPositions;
+        } else {
+            listTargets = enemiesPositions;
+        }
+
+        foreach (GameObject pos in listTargets) {
+
             foreach (BattlePlayer battle in pos.GetComponentsInChildren<BattlePlayer>()) {
                 SelectTarget selectTarget = Instantiate(namesTargetPrefab);
                 selectTarget.Target = battle;
                 selectTarget.transform.SetParent(targetPanel.transform); // para adicionar no componente pai
                 selectTarget.transform.localScale = new Vector3(1, 1, 0);
+
+                listTargetPlayer.Add(selectTarget);
             }
         }
+
+        if (currentPlayer.Player.IsEnemy) {
+            int index = UnityEngine.Random.Range(0, listTargetPlayer.Count);
+            StartCoroutine(SelectTargetCoroutine(listTargetPlayer[index].Target));
+        }
+
+    }
+
+    private IEnumerator SelectTargetCoroutine(BattlePlayer target) {
+        yield return new WaitForSeconds(0.3f);
+        SelectTarget(target);
+        yield return new WaitForSeconds(0.3f);
+        PlayDice();
     }
 
     public void SelectTarget(BattlePlayer target) {
-        targetPlayer = target;
+        currentTargetPlayer = target;
         dicePanel.SetActive(true);
         playDice.SetActive(true);
         infoPanel.SetActive(true);
@@ -303,24 +330,18 @@ public class BattleManager : MonoBehaviour {
         } else if (dicesActives == 2) {
             sumDices = dice1 + dice2;
         }
-        StartCoroutine(Attack(sumDices));
+
+        StartCoroutine(DoAttackWithDamage(sumDices));
     }
 
     private void UpdatePanelSkillSelected() {
-        BattlePlayer player = orderAction.GetByIndex(currentTurn) as BattlePlayer;
-        string nivel = "(" + skillSelected.Type + "-" + player.Player.GetNivelSkill(skillSelected).ToString() + ")";
+        string nivel = "(" + skillSelected.Type + "-" + currentPlayer.Player.GetNivelSkill(skillSelected).ToString() + ")";
         skillSelectedText.text = skillSelected.Name + nivel;
     }
 
     private void CheckSuccess() {
-        BattlePlayer player = orderAction.GetByIndex(currentTurn) as BattlePlayer;
-        foreach (Skill skill in player.Player.Skills) {
-            if (skill == skillSelected) {
-                bool success = sumDices <= player.Player.GetNivelSkill(skillSelected);
-                StartCoroutine(UpdatePanelInfoActionCoroutine(success));
-                break;
-            }
-        }
+        bool success = sumDices <= currentPlayer.Player.GetNivelSkill(skillSelected);
+        StartCoroutine(UpdatePanelInfoActionCoroutine(success));
     }
 
     private IEnumerator UpdatePanelInfoActionCoroutine(bool success) {
@@ -330,7 +351,7 @@ public class BattleManager : MonoBehaviour {
             yield return new WaitForSeconds(0.5f);
             canAttack = success;
             MoveToPositionAttack();
-            ResetDices();
+            canPlayDices = true;
         } else {
             txtInfo.text = "Falha";
             yield return new WaitForSeconds(0.8f);
@@ -340,6 +361,9 @@ public class BattleManager : MonoBehaviour {
     }
 
     private void ResetDices() {
+        dices[0].gameObject.SetActive(true);
+        dices[1].gameObject.SetActive(true);
+        dices[2].gameObject.SetActive(true);
         dices[0].text = "d6";
         dices[1].text = "d6";
         dices[2].text = "d6";
@@ -347,40 +371,82 @@ public class BattleManager : MonoBehaviour {
     }
 
     public void MoveToPositionAttack() {
-        BattlePlayer player = orderAction.GetByIndex(currentTurn) as BattlePlayer;
-        positionOrigin = player.transform.position;
-        player.transform.position = new Vector3(positionAttack.transform.position.x, positionAttack.transform.position.y, 0);
+        positionOrigin = currentPlayer.transform.position;
+        currentPlayer.transform.position = new Vector3(positionAttack.transform.position.x, positionAttack.transform.position.y, 0);
         //arraySuccessError[0].gameObject.SetActive(true);
         txtInfo.text = "Calcular dano";
-        EnumDamange damage = TabelaDano.GetDemangeByST(player.Player.St);
+        EnumDamange damage = TabelaDano.GetDemangeByST(currentPlayer.Player.St);
 
         if (damage.ToString().Contains("d1")) {
             dices[1].gameObject.SetActive(false);
             dices[2].gameObject.SetActive(false);
-        }
-        if (damage.ToString().Contains("d2")) {
+        } else if (damage.ToString().Contains("d2")) {
             dices[2].gameObject.SetActive(false);
             dicesActives = 2;
+        }
+
+        if (currentPlayer.Player.IsEnemy) {
+            StartCoroutine(PlayDiceEnemyCoroutine());
         }
         //StartCoroutine(Attack(positionOrigin));
     }
 
     public void MoveToPositionDefault() {
-        BattlePlayer player = orderAction.GetByIndex(currentTurn) as BattlePlayer;
-        player.transform.position = positionOrigin;
+        currentPlayer.transform.position = positionOrigin;
     }
 
-    public IEnumerator Attack(int damage) {
-        BattlePlayer player = orderAction.GetByIndex(currentTurn) as BattlePlayer;
-        Vector3 posArm = new Vector3(player.transform.position.x - 1, player.transform.position.y, player.transform.position.z);
-        GameObject arm = Instantiate(player.GetCurrentArmPrefab(skillSelected), posArm, player.transform.rotation);
+    public IEnumerator DoAttackWithDamage(int damage) {
+        Vector3 posArm = new Vector3(currentPlayer.transform.position.x - 1, currentPlayer.transform.position.y, currentPlayer.transform.position.z);
+        GameObject arm = Instantiate(currentPlayer.GetCurrentArmPrefab(skillSelected), posArm, currentPlayer.transform.rotation);
         yield return new WaitForSeconds(1f);
 
         canAttack = false;
         MoveToPositionDefault();
         Destroy(arm.gameObject);
 
-        Instantiate(damageNumber, targetPlayer.transform.position, targetPlayer.transform.rotation).SetDamage(damage);
+        Instantiate(damageNumber, currentTargetPlayer.transform.position, currentTargetPlayer.transform.rotation).SetDamage(damage);
         NextTurn();
+    }
+
+    public IEnumerator ActionAttackEnemyCoroutine() {
+        yield return new WaitForSeconds(0.5f);
+        int index = UnityEngine.Random.Range(0, currentPlayer.Player.Skills.Count);
+        Skill skill = currentPlayer.Player.Skills[index];
+        ActionAttack(skill);
+    }
+
+    public IEnumerator PlayDiceEnemyCoroutine() {
+        yield return new WaitForSeconds(0.5f);
+        PlayDice();
+    }
+
+    private void BattleEnd() {
+        StartCoroutine(BattleEndCoroutine());
+    }
+
+    private IEnumerator BattleEndCoroutine() {
+        UiFade.Instance.FadeToBlack();
+        yield return new WaitForSeconds(1f);
+        foreach (GameObject pos in playersPositions) {
+            foreach (BattlePlayer battle in pos.GetComponentsInChildren<BattlePlayer>()) {
+                Destroy(battle.gameObject);
+            }
+        }
+
+        foreach (GameObject pos in enemiesPositions) {
+            foreach (BattlePlayer battle in pos.GetComponentsInChildren<BattlePlayer>()) {
+                Destroy(battle.gameObject);
+            }
+        }
+
+        //Camera.main.orthographicSize = 12.0f;
+        GameManager.Instance.BattleActive = false;
+        actionPanel.SetActive(false);
+        battleScene.SetActive(false);
+        targetPanel.SetActive(false);
+        dicePanel.SetActive(false);
+        playDice.SetActive(false);
+        infoPanel.SetActive(false);
+        UiFade.Instance.FadeFromBlack();
     }
 }
