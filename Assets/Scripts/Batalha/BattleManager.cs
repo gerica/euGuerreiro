@@ -37,6 +37,7 @@ public class BattleManager : MonoBehaviour {
     private Vector3 positionOrigin;
     private int dicesActives = 1;
     private BattlePlayer targetPlayer;
+    private bool canPlayDices = true;
 
     public static BattleManager Instance { get; set; }
     public int TypeDice { get => typeDice; set => typeDice = value; }
@@ -151,6 +152,7 @@ public class BattleManager : MonoBehaviour {
         canAttack = false;
         positionOrigin = new Vector3(); ;
         dicesActives = 1;
+        canPlayDices = true;
     }
 
     public void NextTurn() {
@@ -240,8 +242,6 @@ public class BattleManager : MonoBehaviour {
     }
 
     public void SelectTarget(BattlePlayer target) {
-        Debug.Log("Atacar o " + target.Player.NamePlayer);
-        Debug.Log("Position " + target.transform.position);
         targetPlayer = target;
         dicePanel.SetActive(true);
         playDice.SetActive(true);
@@ -250,7 +250,10 @@ public class BattleManager : MonoBehaviour {
 
     public void PlayDice() {
         //StartCoroutine(PlayDiceCorEachPerTime());
-        StartCoroutine(PlayDiceCorAll());
+        if (canPlayDices) {
+            canPlayDices = false;
+            StartCoroutine(PlayDiceCorAll());
+        }
     }
 
     //Versão de cada dado de uma vez
@@ -331,6 +334,7 @@ public class BattleManager : MonoBehaviour {
         } else {
             txtInfo.text = "Falha";
             yield return new WaitForSeconds(0.8f);
+            NextTurn();
         }
 
     }
@@ -339,6 +343,7 @@ public class BattleManager : MonoBehaviour {
         dices[0].text = "d6";
         dices[1].text = "d6";
         dices[2].text = "d6";
+        canPlayDices = true;
     }
 
     public void MoveToPositionAttack() {
