@@ -156,6 +156,7 @@ public class MainMenuManager : MonoBehaviour {
 
     public void SavePlayer() {
         player.NamePlayer = inputFieldName.text;
+        player.HtPlayer = player.Ht;
         if (ValidSavePlayer()) {
             SaveData.SavePlayer(player);
             Session.Player = player;

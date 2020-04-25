@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BattlePlayer : MonoBehaviour {
     [SerializeField] private GameObject[] armsPrefab;
@@ -21,7 +22,10 @@ public class BattlePlayer : MonoBehaviour {
         }
 
         return null;
+    }
 
+    public Sprite GetSprite() {
+        return GetComponentInParent<Image>().sprite;
     }
 
 }

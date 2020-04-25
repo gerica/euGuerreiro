@@ -20,11 +20,11 @@ public class BattleManager : MonoBehaviour {
     [SerializeField] SelectTarget namesTargetPrefab;
     [SerializeField] GameObject currentTurnPrefab;
     [SerializeField] Text skillSelectedText;
-    //[SerializeField] Text[] arraySuccessError;
     [SerializeField] GameObject infoPanel;
     [SerializeField] Text txtInfo;
     [SerializeField] GameObject positionAttack;
     [SerializeField] DamageNumber damageNumber;
+    [SerializeField] GameObject statusPanel;
 
     [SerializeField] float speedDice = 0.1f;
     private int typeDice = 7;
@@ -87,6 +87,7 @@ public class BattleManager : MonoBehaviour {
         CalculateOrderAction();
         UiFade.Instance.FadeFromBlack();
         NextTurn();
+
     }
 
     private void CalculateOrderAction() {
@@ -139,6 +140,26 @@ public class BattleManager : MonoBehaviour {
         }
     }
 
+    private void UpdateStatusPanel() {
+        if (currentPlayer.Player.IsEnemy) {
+            statusPanel.SetActive(false);
+        } else {
+            statusPanel.SetActive(true);
+            foreach (Image img in statusPanel.GetComponentsInChildren<Image>()) {
+                if (img.name == "imgPlayer") {
+                    img.sprite = currentPlayer.GetSprite();
+                    break;
+                }
+            }
+            foreach (Text txt in statusPanel.GetComponentsInChildren<Text>()) {
+                if (txt.name == "txtHT") {
+                    txt.text = "HT: " + currentPlayer.Player.HtPlayer;
+                    break;
+                }
+            }
+        }
+    }
+
     private void InitTurn() {
         // battleScene.SetActive(false);
         // actionPanel.SetActive(false);
@@ -171,6 +192,7 @@ public class BattleManager : MonoBehaviour {
 
         CreateShadowCurrentTurn();
         ActiveActionPanel();
+        UpdateStatusPanel();
         //if (!currentPlay.Player.IsEnemy) {
 
         //} else {
@@ -396,7 +418,13 @@ public class BattleManager : MonoBehaviour {
     }
 
     public IEnumerator DoAttackWithDamage(int damage) {
-        Vector3 posArm = new Vector3(currentPlayer.transform.position.x - 1, currentPlayer.transform.position.y, currentPlayer.transform.position.z);
+        Vector3 posArm;
+        if (currentPlayer.Player.IsEnemy) {
+            posArm = new Vector3(currentPlayer.transform.position.x + 1, currentPlayer.transform.position.y, currentPlayer.transform.position.z);
+        } else {
+            posArm = new Vector3(currentPlayer.transform.position.x - 1, currentPlayer.transform.position.y, currentPlayer.transform.position.z);
+
+        }
         GameObject arm = Instantiate(currentPlayer.GetCurrentArmPrefab(skillSelected), posArm, currentPlayer.transform.rotation);
         yield return new WaitForSeconds(1f);
 
@@ -405,6 +433,7 @@ public class BattleManager : MonoBehaviour {
         Destroy(arm.gameObject);
 
         Instantiate(damageNumber, currentTargetPlayer.transform.position, currentTargetPlayer.transform.rotation).SetDamage(damage);
+        currentTargetPlayer.Player.LoseHT(damage);
         NextTurn();
     }
 

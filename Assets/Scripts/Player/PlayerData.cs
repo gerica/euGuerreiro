@@ -10,6 +10,7 @@ public class PlayerData {
     private int dx;
     private int iq;
     private int ht;
+    private int htPlayer;
     private float speedBasic;
     private EnumSex sex;
     private List<DisadvantageAdvantage> advantages = new List<DisadvantageAdvantage>();
@@ -38,6 +39,7 @@ public class PlayerData {
     }
 
     public bool IsEnemy { get => isEnemy; set => isEnemy = value; }
+    public int HtPlayer { get => htPlayer; set => htPlayer = value; }
 
     public override string ToString() {
         return NamePlayer + St + Dx + Iq + Ht + Sex;
@@ -63,5 +65,12 @@ public class PlayerData {
                 break;
         }
         return value;
+    }
+
+    internal void LoseHT(int damage) {
+        Debug.Log("Damage" + damage);
+        Debug.Log("HT Player: " + HtPlayer);
+        HtPlayer -= damage;
+        Debug.Log("HT Player: " + HtPlayer);
     }
 }
