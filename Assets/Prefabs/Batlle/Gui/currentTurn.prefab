@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 938994032242035985}
   - component: {fileID: 938994032242035984}
+  - component: {fileID: -2620106124206114743}
   m_Layer: 0
   m_Name: currentTurn
   m_TagString: Untagged
@@ -70,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: -1073395659
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6609894105642088411, guid: 27a834e30795b42ecb423f6b8c32da07,
+  m_Sprite: {fileID: 1274422669862156747, guid: 27a834e30795b42ecb423f6b8c32da07,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -82,3 +83,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-2620106124206114743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938994032242035986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4980adece66b4596a0e7246472592cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

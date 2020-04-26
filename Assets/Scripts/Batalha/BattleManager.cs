@@ -39,6 +39,7 @@ public class BattleManager : MonoBehaviour {
     private BattlePlayer currentPlayer;
     private BattlePlayer currentTargetPlayer;
     private bool canPlayDices = true;
+    private bool canDodge;
 
     public static BattleManager Instance { get; set; }
     public int TypeDice { get => typeDice; set => typeDice = value; }
@@ -141,9 +142,7 @@ public class BattleManager : MonoBehaviour {
     }
 
     private void UpdateStatusPanel() {
-        if (currentPlayer.Player.IsEnemy) {
-            statusPanel.SetActive(false);
-        } else {
+        if (!currentPlayer.Player.IsEnemy) {
             statusPanel.SetActive(true);
             foreach (Image img in statusPanel.GetComponentsInChildren<Image>()) {
                 if (img.name == "imgPlayer") {
@@ -193,35 +192,18 @@ public class BattleManager : MonoBehaviour {
         CreateShadowCurrentTurn();
         ActiveActionPanel();
         UpdateStatusPanel();
-        //if (!currentPlay.Player.IsEnemy) {
-
-        //} else {
-        //    Debug.Log("enimigo atacar");
-        //    CreateShadowCurrentTurn(enemiesPositions);
-        //    ActiveActionPanel();
-        //}
-        //TurnWaiting = true;
-        //UpdateBattle();
-        //UpdateUIState();
     }
 
     private void CreateShadowCurrentTurn() {
-        GameObject[] listPostPlayer;
-        if (currentPlayer.Player.IsEnemy) {
-            listPostPlayer = enemiesPositions;
-        } else {
-            listPostPlayer = playersPositions;
+        foreach (CurrentTurn currentTurn in GetComponentsInChildren<CurrentTurn>()) {
+            Destroy(currentTurn.gameObject);
         }
 
-        foreach (GameObject pos in listPostPlayer) {
-            if (pos.GetComponentsInChildren<BattlePlayer>().Length > 0) {
-                Vector3 vector3 = new Vector3(0.203f, 0.82f, 0);
-                GameObject turnObject = Instantiate(currentTurnPrefab, pos.transform.position - vector3, pos.transform.rotation);
-                turnObject.transform.SetParent(pos.transform); // para adicionar no componente pai
-                turnObject.transform.localScale = new Vector3(1, 1, 0);
-                break;
-            }
-        }
+        Vector3 vector3 = new Vector3(0.15f, 0.66f, 0);
+
+        GameObject turnObject = Instantiate(currentTurnPrefab, currentPlayer.transform.position - vector3, currentPlayer.transform.rotation);
+        turnObject.transform.SetParent(currentPlayer.transform); // para adicionar no componente pai
+        turnObject.transform.localScale = new Vector3(2, 1, 0);
     }
 
     public void ActiveActionPanel() {
@@ -336,7 +318,9 @@ public class BattleManager : MonoBehaviour {
         dices[2].text = dice3.ToString();
 
         sumDices = dice1 + dice2 + dice3;
-        if (!canAttack) {
+        if (canDodge) {
+            StartCoroutine(TryDodgePlayer(dice1, dice2, dice3));
+        } else if (!canAttack) {
             dicesActives = 1;
             CheckSuccess();
         } else {
@@ -351,8 +335,9 @@ public class BattleManager : MonoBehaviour {
             sumDices = dice1;
         } else if (dicesActives == 2) {
             sumDices = dice1 + dice2;
+        } else if (dicesActives == 3) {
+            sumDices = dice1 + dice2 + dice3;
         }
-
         StartCoroutine(DoAttackWithDamage(sumDices));
     }
 
@@ -395,7 +380,41 @@ public class BattleManager : MonoBehaviour {
     public void MoveToPositionAttack() {
         positionOrigin = currentPlayer.transform.position;
         currentPlayer.transform.position = new Vector3(positionAttack.transform.position.x, positionAttack.transform.position.y, 0);
-        //arraySuccessError[0].gameObject.SetActive(true);
+        if (currentPlayer.Player.IsEnemy) {
+            canDodge = true;
+            txtInfo.text = "Tentar Esquivar: nivel " + currentPlayer.Player.Dodge;
+            SwapCurrentPlayer();
+        } else {
+            CalculateDamage();
+        }
+    }
+
+    private IEnumerator TryDodgePlayer(int dice1, int dice2, int dice3) {
+        canDodge = false;
+        SwapCurrentPlayer();
+
+        int sumDices = dice1 + dice2 + dice3;
+        if (sumDices > currentPlayer.Player.Dodge) {
+            txtInfo.text = "Não conseguiu esquivar";
+            canPlayDices = true;
+            yield return new WaitForSeconds(1f);
+            CalculateDamage();
+        } else {
+            txtInfo.text = "Esquivou";
+            yield return new WaitForSeconds(1f);
+            MoveToPositionDefault();
+            NextTurn();
+        }
+    }
+
+    private void SwapCurrentPlayer() {
+        BattlePlayer temp = currentPlayer;
+        currentPlayer = currentTargetPlayer;
+        currentTargetPlayer = temp;
+        CreateShadowCurrentTurn();
+    }
+
+    private void CalculateDamage() {
         txtInfo.text = "Calcular dano";
         EnumDamange damage = TabelaDano.GetDemangeByST(currentPlayer.Player.St);
 
@@ -405,12 +424,13 @@ public class BattleManager : MonoBehaviour {
         } else if (damage.ToString().Contains("d2")) {
             dices[2].gameObject.SetActive(false);
             dicesActives = 2;
+        } else {
+            dicesActives = 3;
         }
 
         if (currentPlayer.Player.IsEnemy) {
             StartCoroutine(PlayDiceEnemyCoroutine());
         }
-        //StartCoroutine(Attack(positionOrigin));
     }
 
     public void MoveToPositionDefault() {
