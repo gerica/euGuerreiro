@@ -14,7 +14,7 @@ public class Skeleto1 : PlayerData {
         HtPlayer = 10;
         Skill skill = new Skill();
         skill.Id = 5;
-        skill.Name = ShortSword.skillToUse;
+        skill.Name = EnumSkill.ARCO.GetDescription();
         skill.Type = "ST";
         skill.Difficult = "Média";
         skill.Nivel = 2;

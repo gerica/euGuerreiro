@@ -13,13 +13,13 @@ public class PlayerData {
     private int htPlayer;
     private float speedBasic;
     private EnumSex sex;
+    private int historyProgress;
+    private bool isEnemy;
+    private int dodge;
     private List<DisadvantageAdvantage> advantages = new List<DisadvantageAdvantage>();
     private List<DisadvantageAdvantage> disadvantages = new List<DisadvantageAdvantage>();
     private List<Skill> skills = new List<Skill>();
-    private int historyProgress;
-    private bool isEnemy;
-    //Esquiva: O valor da defesa Esquiva do personagem(v.Esquiva, pág. 374) é igual à sua Velocidade Básica +3, ig­ norando as frações.Por exemplo, um personagem com uma Velocidade Bá­ sica de 5,25 terá uma Esquiva de 8. 
-    private int dodge;
+    private List<IWeapon> weapons = new List<IWeapon>();
 
 
     public string NamePlayer { get => namePlayer; set => namePlayer = value; }
@@ -27,6 +27,8 @@ public class PlayerData {
     public int Dx { get => dx; set => dx = value; }
     public int Iq { get => iq; set => iq = value; }
     public int Ht { get => ht; set => ht = value; }
+    public bool IsEnemy { get => isEnemy; set => isEnemy = value; }
+    public int HtPlayer { get => htPlayer; set => htPlayer = value; }
     public List<DisadvantageAdvantage> Advantages { get => advantages; set => advantages = value; }
     public List<DisadvantageAdvantage> Disadvantages { get => disadvantages; set => disadvantages = value; }
     public List<Skill> Skills { get => skills; set => skills = value; }
@@ -41,14 +43,16 @@ public class PlayerData {
         set => speedBasic = value;
     }
 
-    public bool IsEnemy { get => isEnemy; set => isEnemy = value; }
-    public int HtPlayer { get => htPlayer; set => htPlayer = value; }
+    //Esquiva: O valor da defesa Esquiva do personagem(v.Esquiva, pág. 374) é igual à sua Velocidade Básica +3, ig­ norando as frações
+    //Por exemplo, um personagem com uma Velocidade Bá­ sica de 5,25 terá uma Esquiva de 8. 
     public int Dodge {
         get {
             return Convert.ToInt32(SpeedBasic + 3);
         }
         set => dodge = value;
     }
+
+    public List<IWeapon> Weapons { get => weapons; set => weapons = value; }
 
     public override string ToString() {
         return NamePlayer + St + Dx + Iq + Ht + Sex;
@@ -79,5 +83,5 @@ public class PlayerData {
     internal void LoseHT(int damage) {
         HtPlayer -= damage;
     }
-       
+
 }
