@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] Animator myAnimator;
     [SerializeField] float moveSpeed = 10.0f;
     [SerializeField] string areaTransitionName;
+    [SerializeField] BattlePlayer battlePlayersPrefabs;
+
 
     private PlayerData playerData;
     private Vector3 bottomLeftLimit;
@@ -71,5 +73,10 @@ public class PlayerController : MonoBehaviour {
     public void SetBounds(Vector3 botLeft, Vector3 topRight) {
         bottomLeftLimit = botLeft + new Vector3(0.5f, 0.5f, 0f);
         topRightLimit = topRight + new Vector3(-0.5f, -0.5f, 0f);
+    }
+
+    internal BattlePlayer GetPlayerBatlePrefab() {
+        return battlePlayersPrefabs;
+
     }
 }

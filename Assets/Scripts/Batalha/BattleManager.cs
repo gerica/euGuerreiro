@@ -14,8 +14,6 @@ public class BattleManager : MonoBehaviour {
     [SerializeField] GameObject playDice;
     [SerializeField] GameObject[] playersPositions;
     [SerializeField] GameObject[] enemiesPositions;
-    [SerializeField] BattlePlayer maleBattlePlayerPrefab;
-    [SerializeField] BattlePlayer femaleBattlePlayerPrefab;
     [SerializeField] Text[] dices;
     [SerializeField] SelectTarget namesTargetPrefab;
     [SerializeField] GameObject currentTurnPrefab;
@@ -109,11 +107,7 @@ public class BattleManager : MonoBehaviour {
         int randomPosition = UnityEngine.Random.Range(0, playersPositions.Length);
         GameObject position = playersPositions[randomPosition];
         BattlePlayer playerBattle;
-        if (PlayerController.Instance.PlayerData.Sex == EnumSex.M) {
-            playerBattle = Instantiate(maleBattlePlayerPrefab, position.transform.position, position.transform.rotation);
-        } else {
-            playerBattle = Instantiate(femaleBattlePlayerPrefab, position.transform.position, position.transform.rotation);
-        }
+        playerBattle = Instantiate(PlayerController.Instance.GetPlayerBatlePrefab(), position.transform.position, position.transform.rotation);
         playerBattle.Player = PlayerController.Instance.PlayerData;
         playerBattle.transform.SetParent(playersPositions[randomPosition].transform); // para adicionar no componente pai
         playerBattle.transform.localScale = new Vector3(1, 1, 0);
@@ -446,6 +440,7 @@ public class BattleManager : MonoBehaviour {
 
         }
         GameObject arm = Instantiate(currentPlayer.GetCurrentArmPrefab(skillSelected), posArm, currentPlayer.transform.rotation);
+        //GameObject arm = Instantiate(currentPlayer.GetCurrentArmPrefab(skillSelected), posArm, currentPlayer.transform.rotation);
         yield return new WaitForSeconds(1f);
 
         canAttack = false;
@@ -454,7 +449,18 @@ public class BattleManager : MonoBehaviour {
 
         Instantiate(damageNumber, currentTargetPlayer.transform.position, currentTargetPlayer.transform.rotation).SetDamage(damage);
         currentTargetPlayer.Player.LoseHT(damage);
-        NextTurn();
+        Debug.Log(currentTargetPlayer.Player.NamePlayer);
+        Debug.Log(currentTargetPlayer.Player.HtPlayer);
+
+        if (currentTargetPlayer.Player.HtPlayer <= 0) {
+            if (!currentTargetPlayer.Player.IsEnemy) {
+                Debug.Log("Game over");
+            }
+            BattleEnd();
+        } else {
+
+            NextTurn();
+        }
     }
 
     public IEnumerator ActionAttackEnemyCoroutine() {
